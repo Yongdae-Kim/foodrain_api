@@ -37,7 +37,19 @@ group :development do
   gem 'web-console', '~> 3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  # Guard
+  gem 'guard'
+  # Guard Minitest
+  gem 'guard-minitest'
+  # Guard Rubocop
+  gem 'guard-rubocop'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Responders
+gem 'responders', '~> 2.0'
+# Paperclip
+gem "paperclip", "~> 4.3"
+# Kaminari
+gem 'kaminari'
