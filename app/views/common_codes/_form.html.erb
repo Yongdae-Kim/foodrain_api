@@ -1,0 +1,32 @@
+<%= form_for(common_code) do |f| %>
+  <% if common_code.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(common_code.errors.count, "error") %> prohibited this common_code from being saved:</h2>
+
+      <ul>
+      <% common_code.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :main_code %>
+    <%= f.text_field :main_code %>
+  </div>
+
+  <div class="field">
+    <%= f.label :detail_code_id %>
+    <%= f.number_field :detail_code_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name_kor %>
+    <%= f.text_field :name_kor %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

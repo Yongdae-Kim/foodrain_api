@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :common_codes
   resources :users
   resources :store_owners
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

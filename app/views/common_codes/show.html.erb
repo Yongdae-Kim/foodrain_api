@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Main code:</strong>
+  <%= @common_code.main_code %>
+</p>
+
+<p>
+  <strong>Detail code:</strong>
+  <%= @common_code.detail_code_id %>
+</p>
+
+<p>
+  <strong>Name kor:</strong>
+  <%= @common_code.name_kor %>
+</p>
+
+<%= link_to 'Edit', edit_common_code_path(@common_code) %> |
+<%= link_to 'Back', common_codes_path %>

@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160130090040) do
+ActiveRecord::Schema.define(version: 20160130092032) do
+
+  create_table "common_codes", primary_key: "common_code_id", force: :cascade do |t|
+    t.string   "main_code"
+    t.integer  "detail_code_id"
+    t.string   "name_kor"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
 
   create_table "images", force: :cascade do |t|
     t.string   "imageable_type"

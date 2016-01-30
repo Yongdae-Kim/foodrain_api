@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  main_code: MyString
+  detail_code_id: 1
+  name_kor: MyString
+
+two:
+  main_code: MyString
+  detail_code_id: 1
+  name_kor: MyString
