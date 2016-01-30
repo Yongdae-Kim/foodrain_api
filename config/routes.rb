@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :stores
   resources :common_codes
   resources :users
   resources :store_owners

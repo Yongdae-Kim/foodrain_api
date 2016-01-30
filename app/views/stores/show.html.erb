@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @store.category_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @store.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @store.address %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @store.longitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @store.latitude %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @store.phone %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @store.detail %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @store.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @store.end_time %>
+</p>
+
+<p>
+  <strong>Holiday:</strong>
+  <%= @store.holiday %>
+</p>
+
+<%= link_to 'Edit', edit_store_path(@store) %> |
+<%= link_to 'Back', stores_path %>

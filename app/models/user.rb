@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_many :image, as: :imageable
+  has_one :image, as: :imageable
 end
