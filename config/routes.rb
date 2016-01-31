@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :regions, only: :index
     resources :categories, only: :index
+    resources :reviews, only: :index
   end
 
   # Serve websocket cable requests in-process
