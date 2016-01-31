@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Do:</strong>
+  <%= @region.do %>
+</p>
+
+<p>
+  <strong>Gu:</strong>
+  <%= @region.gu %>
+</p>
+
+<p>
+  <strong>Dong:</strong>
+  <%= @region.dong %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @region.longitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @region.latitude %>
+</p>
+
+<%= link_to 'Edit', edit_region_path(@region) %> |
+<%= link_to 'Back', regions_path %>

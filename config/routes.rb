@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :regions
   resources :store_menus
   resources :reviews
   resources :stores
