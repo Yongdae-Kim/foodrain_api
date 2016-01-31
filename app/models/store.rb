@@ -1,6 +1,8 @@
 class Store < ApplicationRecord
-  has_many :images, as: :imageable
   belongs_to :store_owner
+
+  has_many :images, as: :imageable
+  has_many :reviews
 
   scope :find_by_category, lambda { |category|
     where(category_id: category) if category.present?

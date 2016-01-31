@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20160131034146) do
     t.index ["imageable_type", "imageable_id"], name: "index_images_on_imageable_type_and_imageable_id"
   end
 
-  create_table "reviews", force: :cascade do |t|
+  create_table "reviews", primary_key: "review_id", force: :cascade do |t|
     t.integer  "store_id"
     t.integer  "user_id"
     t.text     "detail"
