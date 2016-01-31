@@ -15,10 +15,10 @@ ActiveRecord::Schema.define(version: 20160130095101) do
 
   create_table "common_codes", primary_key: "common_code_id", force: :cascade do |t|
     t.string   "main_code"
-    t.integer  "detail_code_id"
+    t.integer  "detail_id"
     t.string   "name_kor"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "images", force: :cascade do |t|
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20160130095101) do
   end
 
   create_table "stores", primary_key: "store_id", force: :cascade do |t|
+    t.integer  "store_owner_id"
     t.integer  "category_id"
     t.string   "name"
     t.string   "address"
@@ -53,8 +54,9 @@ ActiveRecord::Schema.define(version: 20160130095101) do
     t.time     "start_time"
     t.time     "end_time"
     t.string   "holiday"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.index ["store_owner_id"], name: "index_stores_on_store_owner_id"
   end
 
   create_table "users", primary_key: "user_id", force: :cascade do |t|
