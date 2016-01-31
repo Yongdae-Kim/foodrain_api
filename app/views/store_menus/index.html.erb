@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Store Menus</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Store</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @store_menus.each do |store_menu| %>
+      <tr>
+        <td><%= store_menu.store %></td>
+        <td><%= link_to 'Show', store_menu %></td>
+        <td><%= link_to 'Edit', edit_store_menu_path(store_menu) %></td>
+        <td><%= link_to 'Destroy', store_menu, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Store Menu', new_store_menu_path %>

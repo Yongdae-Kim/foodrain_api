@@ -1,0 +1,2 @@
+module StoreMenusHelper
+end

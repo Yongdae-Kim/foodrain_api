@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160131034146) do
+ActiveRecord::Schema.define(version: 20160131043155) do
 
   create_table "common_codes", primary_key: "common_code_id", force: :cascade do |t|
     t.string   "main_code"
@@ -42,6 +42,13 @@ ActiveRecord::Schema.define(version: 20160131034146) do
     t.datetime "updated_at", null: false
     t.index ["store_id"], name: "index_reviews_on_store_id"
     t.index ["user_id"], name: "index_reviews_on_user_id"
+  end
+
+  create_table "store_menus", primary_key: "store_menu_id", force: :cascade do |t|
+    t.integer  "store_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["store_id"], name: "index_store_menus_on_store_id"
   end
 
   create_table "store_owners", primary_key: "store_owner_id", force: :cascade do |t|
