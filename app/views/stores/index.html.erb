@@ -15,6 +15,7 @@
       <th>Start time</th>
       <th>End time</th>
       <th>Holiday</th>
+      <th>StoreOwner</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -32,6 +33,7 @@
         <td><%= store.start_time %></td>
         <td><%= store.end_time %></td>
         <td><%= store.holiday %></td>
+        <td><%= store.store_owner_id %></td>
         <td><%= link_to 'Show', store %></td>
         <td><%= link_to 'Edit', edit_store_path(store) %></td>
         <td><%= link_to 'Destroy', store, method: :delete, data: { confirm: 'Are you sure?' } %></td>

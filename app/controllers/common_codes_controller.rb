@@ -44,7 +44,7 @@ class CommonCodesController < ApplicationController
 
   def common_code_params
     params.require(:common_code).permit(
-      :main_code, :detail_code_id, :name_kor
+      :main_code, :detail_id, :name_kor
     )
   end
 end

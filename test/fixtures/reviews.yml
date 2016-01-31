@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  store: one
+  user: one
+  detail: MyText
+  grade: 1.5
+
+two:
+  store: two
+  user: two
+  detail: MyText
+  grade: 1.5

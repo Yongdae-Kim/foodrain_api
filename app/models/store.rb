@@ -9,5 +9,4 @@ class Store < ApplicationRecord
   def category_name
     CommonCode.find_by_code('CATEGORY', category_id)
   end
-
 end

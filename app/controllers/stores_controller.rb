@@ -45,8 +45,8 @@ class StoresController < ApplicationController
   def store_params
     params.require(:store).permit(
       :category_id, :name, :address,
-      :longitude, :latitude, :phone, :detail,
-      :start_time, :end_time, :holiday
+      :longitude, :latitude, :phone, :detail, :start_time,
+      :end_time, :holiday, :store_owner_id
     )
   end
 end

@@ -19,7 +19,7 @@ class CommonCodesControllerTest < ActionDispatch::IntegrationTest
     assert_difference('CommonCode.count') do
       post common_codes_url, params: {
         common_code: {
-          detail_code_id: @common_code.detail_code_id,
+          detail_id: @common_code.detail_id,
           main_code: @common_code.main_code,
           name_kor: @common_code.name_kor
         }
@@ -42,7 +42,7 @@ class CommonCodesControllerTest < ActionDispatch::IntegrationTest
   test 'should update common_code' do
     patch common_code_url(@common_code), params: {
       common_code: {
-        detail_code_id: @common_code.detail_code_id,
+        detail_id: @common_code.detail_id,
         main_code: @common_code.main_code,
         name_kor: @common_code.name_kor
       }

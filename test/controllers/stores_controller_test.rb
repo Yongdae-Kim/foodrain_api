@@ -28,7 +28,8 @@ class StoresControllerTest < ActionDispatch::IntegrationTest
           longitude: @store.longitude,
           name: @store.name,
           phone: @store.phone,
-          start_time: @store.start_time
+          start_time: @store.start_time,
+          store_owner_id: @store.store_owner_id
         }
       }
     end
@@ -58,7 +59,8 @@ class StoresControllerTest < ActionDispatch::IntegrationTest
         longitude: @store.longitude,
         name: @store.name,
         phone: @store.phone,
-        start_time: @store.start_time
+        start_time: @store.start_time,
+        store_owner_id: @store.store_owner_id
       }
     }
     assert_redirected_to store_path(@store)
