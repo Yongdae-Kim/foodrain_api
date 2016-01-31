@@ -1,0 +1,1001 @@
+store_id,user_id,detail,grade
+85,68,Phasellus in felis. Donec semper sapien a libero.,3.3
+11,19,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",3.3
+65,144,In blandit ultrices enim.,3.1
+120,26,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,3.2
+86,36,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",1.2
+32,6,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",1.2
+166,26,In eleifend quam a odio. In hac habitasse platea dictumst.,3.6
+34,103,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",3.1
+45,111,Nulla justo.,0.0
+131,149,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",4.4
+99,3,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.,3.1
+13,132,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",3.0
+43,157,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",4.4
+68,152,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",1.7
+179,20,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",4.7
+150,30,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,4.1
+132,44,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,0.9
+42,112,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",4.2
+88,1,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.,0.2
+83,72,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",1.5
+82,4,Donec ut dolor.,3.9
+113,124,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",1.3
+38,27,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,0.5
+121,86,In blandit ultrices enim.,3.7
+164,91,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",4.0
+154,97,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",4.6
+82,163,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,0.6
+72,41,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",1.6
+74,94,Praesent blandit.,0.7
+22,100,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,4.9
+156,30,Morbi quis tortor id nulla ultrices aliquet.,4.6
+152,103,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,4.1
+68,9,Mauris lacinia sapien quis libero.,0.1
+116,65,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",0.1
+61,49,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,3.5
+93,139,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",1.7
+139,180,Nulla nisl. Nunc nisl.,0.8
+81,146,In hac habitasse platea dictumst.,2.3
+139,45,Nunc purus. Phasellus in felis.,3.6
+147,27,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",4.4
+112,53,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,0.2
+84,81,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,2.4
+62,41,Integer a nibh. In quis justo.,0.6
+2,169,Nunc rhoncus dui vel sem.,4.6
+117,17,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,4.7
+54,80,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",4.4
+29,109,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",0.6
+84,90,Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.,3.9
+102,168,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,3.7
+137,142,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,4.7
+176,150,Nulla ut erat id mauris vulputate elementum.,0.7
+156,34,Duis mattis egestas metus. Aenean fermentum.,1.9
+105,147,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",1.8
+135,79,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",1.6
+156,121,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",1.8
+157,53,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",1.7
+138,144,Phasellus sit amet erat.,4.3
+19,24,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",1.3
+95,94,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",2.7
+68,24,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",0.9
+173,168,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",1.8
+115,116,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",3.1
+15,137,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",1.4
+34,115,Maecenas tincidunt lacus at velit.,4.1
+107,177,Donec dapibus.,2.3
+140,86,Nulla suscipit ligula in lacus.,1.8
+50,49,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",3.7
+89,177,Nulla justo.,0.3
+136,147,Nunc purus.,1.7
+178,106,Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.,2.6
+66,115,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,4.0
+17,96,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,3.0
+77,53,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",2.9
+174,67,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",1.7
+105,13,Nulla tellus.,3.9
+16,51,Nulla facilisi.,2.8
+1,44,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",3.4
+120,74,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,1.6
+83,77,Donec semper sapien a libero. Nam dui.,2.0
+37,102,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",2.4
+9,144,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",2.4
+51,118,Nullam varius.,4.8
+121,59,Nulla justo.,0.6
+71,147,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",1.8
+31,12,In eleifend quam a odio.,3.2
+148,141,Aenean lectus.,3.4
+109,51,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",2.1
+176,130,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,4.8
+161,33,Nulla ac enim.,2.2
+71,3,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",2.1
+17,46,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,3.8
+90,65,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",1.8
+68,159,Ut tellus.,0.5
+143,77,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",0.8
+117,135,In hac habitasse platea dictumst.,1.9
+66,102,Nullam sit amet turpis elementum ligula vehicula consequat.,3.3
+18,35,Duis ac nibh.,0.4
+132,132,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,3.7
+39,127,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,1.8
+151,8,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",1.8
+7,54,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,3.9
+111,22,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",3.8
+176,89,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",4.1
+62,136,Cras in purus eu magna vulputate luctus.,3.2
+125,89,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",4.8
+143,60,Vestibulum rutrum rutrum neque.,5.0
+1,42,Quisque id justo sit amet sapien dignissim vestibulum.,4.8
+167,35,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",3.6
+63,134,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",3.4
+104,150,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",3.3
+67,90,Duis mattis egestas metus.,1.0
+161,55,Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.,2.7
+137,133,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",3.3
+8,15,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,1.6
+160,113,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,4.4
+29,177,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",4.3
+177,127,Phasellus sit amet erat.,0.7
+67,177,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",2.5
+59,62,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,3.9
+166,114,"In est risus, auctor sed, tristique in, tempus sit amet, sem.",1.1
+141,97,Morbi porttitor lorem id ligula.,2.8
+97,133,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,2.1
+179,106,Phasellus id sapien in sapien iaculis congue.,4.9
+154,102,In hac habitasse platea dictumst.,2.0
+56,155,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2.9
+61,61,Vivamus vestibulum sagittis sapien.,3.8
+142,125,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",2.4
+59,134,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,4.4
+53,93,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,3.2
+30,93,Quisque id justo sit amet sapien dignissim vestibulum.,2.1
+150,179,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",4.7
+102,117,Etiam vel augue. Vestibulum rutrum rutrum neque.,1.5
+152,68,Sed sagittis.,1.1
+87,166,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,3.3
+75,112,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",1.8
+97,12,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",1.9
+78,173,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",0.5
+66,110,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",3.9
+167,164,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,0.5
+120,2,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,1.9
+23,77,Suspendisse accumsan tortor quis turpis. Sed ante.,2.6
+84,50,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",4.0
+170,43,Pellentesque ultrices mattis odio.,1.6
+114,28,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",3.7
+53,154,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",2.4
+62,157,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",2.1
+169,138,Maecenas tincidunt lacus at velit.,2.2
+54,92,Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.,0.0
+114,77,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.,1.7
+50,76,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",4.2
+72,70,Mauris ullamcorper purus sit amet nulla.,1.4
+9,19,Donec semper sapien a libero. Nam dui.,2.0
+97,21,Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.,0.6
+96,58,Nulla facilisi.,3.2
+132,78,Curabitur at ipsum ac tellus semper interdum.,2.2
+24,96,Quisque id justo sit amet sapien dignissim vestibulum.,3.1
+87,150,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",4.8
+161,1,Aenean sit amet justo.,0.3
+34,47,Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.,4.8
+133,85,Nullam molestie nibh in lectus. Pellentesque at nulla.,2.0
+148,69,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",2.5
+172,139,Nulla tellus.,0.0
+49,48,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",1.5
+144,112,Duis bibendum.,1.9
+91,80,Morbi a ipsum. Integer a nibh. In quis justo.,0.0
+20,42,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,3.1
+36,79,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",3.9
+73,155,Pellentesque eget nunc.,1.9
+130,63,Nulla mollis molestie lorem.,2.8
+13,160,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.,0.7
+73,161,Vivamus tortor.,4.4
+9,86,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.,1.8
+115,38,Nulla justo.,1.7
+52,112,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",0.0
+62,82,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",4.4
+154,170,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",0.5
+136,166,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",0.8
+131,11,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,2.5
+116,2,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",0.9
+81,58,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.,4.9
+140,40,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",3.3
+11,103,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.,2.9
+67,111,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,3.1
+132,66,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",2.6
+9,27,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",3.9
+66,40,Sed sagittis.,4.7
+135,56,Proin eu mi. Nulla ac enim.,4.6
+129,80,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,4.0
+8,73,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",1.0
+83,90,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,0.8
+96,9,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",1.2
+75,156,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",3.7
+162,24,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",1.5
+155,116,Curabitur convallis.,4.1
+100,77,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,3.0
+88,66,Sed sagittis.,3.6
+170,155,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",2.6
+37,55,Morbi non quam nec dui luctus rutrum.,3.9
+58,114,Duis mattis egestas metus. Aenean fermentum.,3.1
+136,62,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,2.2
+88,173,Aenean lectus.,1.6
+115,66,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,2.4
+142,50,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",2.0
+45,40,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",3.6
+77,16,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,3.0
+41,4,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",4.9
+107,6,Nullam molestie nibh in lectus. Pellentesque at nulla.,4.5
+16,117,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",4.7
+150,52,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,4.1
+98,27,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2.1
+26,17,Phasellus in felis. Donec semper sapien a libero.,3.9
+104,42,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",4.8
+28,84,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,4.0
+22,92,Donec quis orci eget orci vehicula condimentum.,0.2
+44,106,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",0.4
+123,67,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,1.5
+122,141,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",2.4
+123,109,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.,1.8
+148,3,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",3.7
+36,76,Maecenas ut massa quis augue luctus tincidunt.,0.9
+164,50,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",1.9
+30,149,Vestibulum ac est lacinia nisi venenatis tristique.,3.3
+119,130,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.,1.4
+162,90,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",1.7
+114,133,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,4.3
+16,131,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",4.2
+28,129,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,1.4
+112,21,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,2.7
+111,134,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",3.4
+164,27,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",3.3
+93,144,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2.1
+42,129,Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,3.0
+2,159,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",4.5
+177,21,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,2.6
+104,44,Morbi non lectus.,4.9
+40,74,Morbi ut odio.,1.9
+38,94,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",1.2
+26,54,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,4.6
+136,86,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",1.4
+143,124,Morbi ut odio.,1.5
+14,121,Suspendisse accumsan tortor quis turpis.,4.4
+129,65,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",1.4
+128,18,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",3.5
+172,61,Ut at dolor quis odio consequat varius. Integer ac leo.,3.1
+133,15,Praesent id massa id nisl venenatis lacinia.,3.9
+11,179,Nullam molestie nibh in lectus. Pellentesque at nulla.,4.2
+26,58,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,1.5
+108,147,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",0.5
+169,26,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,3.5
+162,1,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",3.7
+57,92,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",4.0
+21,65,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,2.7
+88,157,Ut tellus.,2.6
+77,107,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2.5
+30,127,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,4.5
+160,147,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",3.2
+63,55,Ut at dolor quis odio consequat varius.,2.0
+79,25,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,4.8
+166,38,Proin risus. Praesent lectus.,3.7
+64,55,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,4.6
+130,169,Donec dapibus.,0.7
+180,21,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",2.1
+111,18,Vestibulum sed magna at nunc commodo placerat.,1.5
+16,89,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,3.8
+16,102,Praesent blandit.,3.3
+57,29,Integer non velit.,2.8
+141,77,In sagittis dui vel nisl.,4.3
+61,117,Etiam justo.,4.9
+89,114,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.,2.1
+114,172,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",2.3
+153,125,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",3.5
+113,10,"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",0.9
+102,173,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",4.9
+126,177,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,0.1
+70,17,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",4.8
+163,70,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,4.1
+77,68,Morbi non lectus.,5.0
+68,113,Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.,4.4
+170,163,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,2.1
+67,108,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",1.0
+165,51,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",3.3
+134,121,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",2.0
+50,73,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",4.6
+160,104,Morbi ut odio.,3.2
+176,96,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",1.6
+17,53,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",4.1
+42,69,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",0.6
+104,162,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",3.0
+168,10,Cras pellentesque volutpat dui.,3.2
+70,86,Aenean sit amet justo. Morbi ut odio.,4.1
+52,88,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.,4.4
+53,110,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,1.7
+121,172,Etiam faucibus cursus urna. Ut tellus.,3.8
+140,142,In congue. Etiam justo.,2.7
+102,50,Curabitur at ipsum ac tellus semper interdum.,3.0
+91,76,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",3.7
+101,84,Morbi vel lectus in quam fringilla rhoncus.,4.5
+30,121,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",3.3
+73,125,Proin eu mi. Nulla ac enim.,2.7
+166,157,Ut at dolor quis odio consequat varius. Integer ac leo.,2.9
+115,90,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",0.8
+61,167,Nulla mollis molestie lorem. Quisque ut erat.,1.7
+101,154,Phasellus in felis. Donec semper sapien a libero.,3.3
+147,162,Proin risus. Praesent lectus.,3.4
+29,44,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",4.9
+92,113,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,5.0
+60,10,Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.,3.1
+172,52,Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.,4.8
+61,95,Curabitur convallis.,4.8
+19,25,Etiam justo.,3.3
+39,122,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,2.4
+98,144,Morbi non quam nec dui luctus rutrum. Nulla tellus.,3.4
+150,27,Vivamus in felis eu sapien cursus vestibulum.,1.4
+123,64,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",3.3
+123,37,Donec semper sapien a libero. Nam dui.,0.5
+125,67,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",3.8
+159,108,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",1.8
+23,95,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",2.1
+16,11,Sed ante. Vivamus tortor.,3.7
+152,46,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",0.1
+90,48,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.,1.8
+77,108,Proin interdum mauris non ligula pellentesque ultrices.,3.2
+70,94,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",1.8
+51,167,Curabitur at ipsum ac tellus semper interdum.,4.7
+177,97,Phasellus in felis.,2.8
+78,100,Aliquam quis turpis eget elit sodales scelerisque.,0.7
+115,38,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",3.1
+6,32,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",0.4
+50,62,Aliquam erat volutpat.,1.9
+122,122,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",3.1
+11,28,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",2.8
+81,59,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",0.1
+129,124,Vestibulum ac est lacinia nisi venenatis tristique.,1.7
+128,6,Donec semper sapien a libero.,0.2
+5,77,Aenean sit amet justo. Morbi ut odio.,2.4
+63,106,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.,3.7
+146,53,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,1.8
+167,59,Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,2.0
+21,5,"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",4.5
+120,118,Aliquam erat volutpat. In congue.,1.6
+170,49,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",0.7
+163,126,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,2.4
+49,179,Aliquam sit amet diam in magna bibendum imperdiet.,1.9
+9,85,Donec ut dolor.,3.4
+36,12,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,1.6
+76,107,Morbi ut odio.,1.7
+170,65,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",0.6
+27,47,Donec semper sapien a libero. Nam dui.,1.8
+74,70,Nulla tellus.,3.1
+16,20,Aenean lectus. Pellentesque eget nunc.,3.8
+177,156,In hac habitasse platea dictumst.,3.6
+33,140,Curabitur at ipsum ac tellus semper interdum.,0.0
+107,10,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",4.8
+58,101,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.,0.1
+20,102,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",3.5
+141,66,Morbi a ipsum. Integer a nibh.,2.1
+95,112,Aliquam erat volutpat. In congue.,4.2
+77,122,Donec dapibus.,4.1
+63,82,Nullam molestie nibh in lectus.,1.9
+167,118,Quisque ut erat.,1.6
+38,44,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.,2.2
+145,2,Aliquam quis turpis eget elit sodales scelerisque.,4.8
+3,166,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,2.1
+59,31,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2.0
+87,144,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2.7
+69,68,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",3.9
+92,164,Quisque porta volutpat erat.,4.0
+100,80,Suspendisse ornare consequat lectus.,4.5
+2,158,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",1.1
+32,90,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",4.5
+78,52,Praesent lectus.,0.8
+160,153,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",4.1
+178,174,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",4.1
+11,43,Nullam porttitor lacus at turpis.,0.6
+59,76,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",0.9
+15,23,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,1.3
+148,38,Sed ante.,4.7
+144,173,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",2.4
+119,88,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",1.4
+57,143,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",4.7
+167,122,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",4.7
+164,137,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,2.6
+67,151,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,3.7
+147,17,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",3.8
+73,102,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.,4.2
+170,33,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,1.8
+76,88,Pellentesque viverra pede ac diam.,2.0
+17,139,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.,3.3
+85,144,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",3.1
+159,70,Curabitur at ipsum ac tellus semper interdum.,3.7
+148,78,Integer ac neque.,0.4
+66,138,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",0.4
+97,49,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.,3.7
+8,94,Nulla nisl.,1.5
+140,170,Morbi non quam nec dui luctus rutrum. Nulla tellus.,0.6
+5,159,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",1.8
+110,162,Ut at dolor quis odio consequat varius. Integer ac leo.,4.6
+123,54,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,4.9
+162,65,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",3.4
+48,174,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,0.5
+104,117,Etiam vel augue.,0.7
+54,35,Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.,1.3
+61,160,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",0.5
+121,155,Nulla mollis molestie lorem. Quisque ut erat.,1.5
+89,87,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",4.3
+31,39,Phasellus sit amet erat.,1.7
+81,122,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2.5
+69,67,In hac habitasse platea dictumst.,3.5
+37,103,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",4.8
+169,93,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,4.0
+87,36,Ut at dolor quis odio consequat varius.,0.3
+138,161,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.,0.2
+67,91,Etiam justo.,2.2
+10,78,Etiam faucibus cursus urna. Ut tellus.,0.9
+42,20,Vivamus vel nulla eget eros elementum pellentesque.,1.0
+139,115,Nunc purus. Phasellus in felis. Donec semper sapien a libero.,4.6
+171,143,Duis mattis egestas metus. Aenean fermentum.,2.8
+27,10,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",1.0
+123,58,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.,3.8
+89,102,Vivamus tortor. Duis mattis egestas metus.,4.4
+95,114,Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.,3.6
+167,10,Etiam pretium iaculis justo.,3.7
+51,34,In eleifend quam a odio.,3.2
+130,30,Praesent lectus.,2.2
+5,4,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,1.8
+54,95,Suspendisse potenti. Nullam porttitor lacus at turpis.,4.1
+71,32,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",0.8
+142,26,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",1.6
+61,81,Pellentesque viverra pede ac diam.,0.3
+84,95,Sed accumsan felis.,0.7
+170,179,Morbi ut odio.,4.1
+79,70,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",0.9
+19,127,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",0.7
+89,85,Nulla mollis molestie lorem.,1.5
+138,6,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",0.8
+171,47,Nunc rhoncus dui vel sem. Sed sagittis.,2.5
+119,24,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.,1.0
+42,139,Phasellus sit amet erat. Nulla tempus.,1.0
+3,99,Integer ac leo. Pellentesque ultrices mattis odio.,3.0
+166,145,Nullam varius.,1.8
+111,23,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",3.7
+76,137,Ut at dolor quis odio consequat varius. Integer ac leo.,4.8
+108,14,Nam dui.,2.5
+136,56,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",3.9
+43,156,Pellentesque ultrices mattis odio.,2.3
+86,94,Curabitur in libero ut massa volutpat convallis.,1.1
+144,174,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",5.0
+14,133,Maecenas pulvinar lobortis est.,1.9
+127,156,Nunc nisl.,3.7
+8,120,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",0.4
+41,144,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,1.8
+108,5,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.,4.9
+30,102,Phasellus sit amet erat.,1.9
+108,152,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",2.5
+177,156,Praesent lectus.,4.4
+102,99,Fusce posuere felis sed lacus.,1.6
+113,176,Donec semper sapien a libero. Nam dui.,2.4
+29,19,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",0.9
+43,114,Donec semper sapien a libero.,2.8
+78,112,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",1.1
+45,157,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.,3.6
+127,179,Suspendisse accumsan tortor quis turpis.,3.4
+158,17,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",2.1
+68,117,Morbi a ipsum.,3.8
+160,27,Etiam vel augue. Vestibulum rutrum rutrum neque.,0.6
+44,158,Nulla ac enim.,4.7
+93,73,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,1.2
+15,124,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",1.1
+79,88,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",2.6
+157,164,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",2.4
+114,89,Nullam molestie nibh in lectus.,2.2
+166,146,Sed sagittis.,0.8
+96,134,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",3.5
+128,22,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.,3.0
+146,87,Nulla mollis molestie lorem.,3.6
+33,89,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",3.1
+74,141,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",2.9
+77,151,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",0.4
+152,23,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,4.0
+15,124,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,1.9
+157,45,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,3.7
+178,28,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",4.6
+153,40,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",4.2
+174,178,Morbi a ipsum.,0.7
+16,66,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",4.6
+134,72,Maecenas ut massa quis augue luctus tincidunt.,2.1
+71,8,Etiam pretium iaculis justo.,2.4
+40,58,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,0.2
+93,50,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",2.4
+89,98,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,0.7
+91,127,Suspendisse potenti.,0.9
+30,106,Mauris sit amet eros.,1.7
+159,87,Aenean lectus. Pellentesque eget nunc.,2.3
+76,156,Duis bibendum.,2.3
+16,35,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",2.2
+130,148,Morbi non quam nec dui luctus rutrum.,2.6
+44,31,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",0.7
+85,114,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",2.1
+73,86,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",2.3
+22,36,Maecenas tincidunt lacus at velit.,2.3
+64,44,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",0.1
+112,15,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",3.5
+109,161,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,3.7
+138,13,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",3.0
+11,52,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",2.4
+98,60,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,4.2
+149,180,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.,0.2
+46,166,Phasellus in felis. Donec semper sapien a libero.,2.5
+137,121,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",4.0
+108,64,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,2.9
+55,63,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",4.5
+33,29,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",4.1
+154,160,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,0.3
+150,151,Duis mattis egestas metus. Aenean fermentum.,4.4
+50,138,Morbi porttitor lorem id ligula.,4.9
+75,73,Nulla nisl.,0.2
+120,99,Aliquam erat volutpat.,0.6
+119,70,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",3.1
+49,9,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",4.4
+168,119,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",0.7
+37,69,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",0.0
+110,106,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",2.1
+138,40,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.,3.9
+96,128,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.,4.4
+31,143,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",2.1
+165,99,Cras in purus eu magna vulputate luctus.,1.7
+43,67,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",1.4
+43,24,Nulla suscipit ligula in lacus.,2.9
+92,129,Aliquam non mauris. Morbi non lectus.,4.6
+2,42,In hac habitasse platea dictumst.,1.2
+167,34,Cras non velit nec nisi vulputate nonummy.,3.2
+15,127,In quis justo.,1.3
+166,163,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,2.7
+124,111,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",4.8
+16,104,Donec vitae nisi.,0.4
+142,33,Quisque ut erat.,0.3
+123,4,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",3.8
+63,73,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",0.3
+112,23,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",1.5
+91,86,Sed accumsan felis.,3.9
+101,38,Maecenas tincidunt lacus at velit.,1.6
+113,11,Mauris ullamcorper purus sit amet nulla.,4.4
+137,54,In sagittis dui vel nisl.,3.7
+8,16,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,4.0
+103,26,Vivamus vestibulum sagittis sapien.,4.8
+9,92,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",0.5
+168,32,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,1.9
+51,161,Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.,0.1
+56,57,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,3.4
+2,88,In hac habitasse platea dictumst.,4.1
+16,113,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,1.3
+131,53,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.,2.8
+23,48,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",2.1
+32,19,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,0.2
+117,138,Aliquam quis turpis eget elit sodales scelerisque.,0.8
+155,177,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,0.5
+20,139,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,1.6
+11,9,Nulla mollis molestie lorem. Quisque ut erat.,3.5
+12,130,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",0.6
+145,95,Integer ac neque. Duis bibendum.,4.0
+151,147,Suspendisse potenti.,2.5
+141,18,In congue. Etiam justo.,1.8
+69,36,Nulla ut erat id mauris vulputate elementum. Nullam varius.,2.3
+16,108,Pellentesque viverra pede ac diam.,3.0
+59,74,Cras non velit nec nisi vulputate nonummy.,0.8
+111,81,Nulla facilisi.,0.5
+110,28,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",3.9
+114,113,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",0.9
+36,121,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",4.7
+177,16,Proin eu mi.,2.8
+140,108,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",2.4
+76,12,Curabitur in libero ut massa volutpat convallis.,4.6
+116,14,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",1.4
+138,169,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,4.4
+170,172,Cras pellentesque volutpat dui.,4.0
+150,2,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",4.6
+62,79,Quisque ut erat.,3.4
+15,64,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,4.1
+163,64,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",0.7
+44,139,Nulla ut erat id mauris vulputate elementum.,1.9
+124,28,Vestibulum sed magna at nunc commodo placerat.,3.7
+151,128,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",1.8
+179,10,Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.,2.2
+149,59,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",2.3
+70,98,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",1.3
+118,19,Vivamus tortor.,4.5
+26,129,Aenean fermentum.,1.2
+102,180,In hac habitasse platea dictumst.,0.7
+49,41,Duis aliquam convallis nunc.,1.0
+118,42,Phasellus sit amet erat.,4.6
+179,125,Pellentesque at nulla.,4.2
+175,12,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",4.2
+3,146,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",4.7
+52,58,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,4.0
+8,175,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",2.8
+126,142,"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",2.4
+95,134,Donec dapibus. Duis at velit eu est congue elementum.,2.2
+47,21,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",0.1
+75,48,Quisque ut erat. Curabitur gravida nisi at nibh.,3.0
+110,166,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",1.5
+8,166,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",1.7
+134,146,Maecenas pulvinar lobortis est.,0.6
+132,116,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,1.3
+83,37,Vestibulum sed magna at nunc commodo placerat.,1.9
+62,174,Vestibulum sed magna at nunc commodo placerat.,4.6
+45,35,Pellentesque ultrices mattis odio. Donec vitae nisi.,1.9
+108,55,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",2.5
+130,121,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",4.7
+42,57,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.,3.9
+118,3,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",2.4
+40,133,Nunc purus.,4.8
+138,162,Fusce consequat. Nulla nisl. Nunc nisl.,3.8
+48,114,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,1.3
+35,3,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",0.5
+123,83,Etiam vel augue. Vestibulum rutrum rutrum neque.,0.4
+106,105,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",1.8
+34,40,Aenean sit amet justo. Morbi ut odio.,3.7
+79,142,Pellentesque at nulla.,1.4
+105,119,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",4.2
+64,145,Suspendisse potenti.,5.0
+115,81,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",0.9
+167,151,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",4.7
+20,162,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",2.5
+26,42,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,4.0
+10,37,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",4.4
+89,178,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,1.5
+95,66,Nullam varius. Nulla facilisi.,0.8
+46,132,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",2.3
+57,58,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",0.9
+94,16,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,0.7
+60,165,Morbi quis tortor id nulla ultrices aliquet.,3.8
+165,170,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,4.7
+67,151,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",4.1
+47,80,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",1.1
+38,51,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,0.0
+113,90,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",2.0
+46,158,Proin at turpis a pede posuere nonummy. Integer non velit.,2.6
+146,91,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",1.9
+170,125,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",1.1
+119,2,Aenean sit amet justo.,3.2
+175,61,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",4.0
+139,156,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",1.0
+31,37,In sagittis dui vel nisl. Duis ac nibh.,4.0
+147,58,Aliquam erat volutpat. In congue. Etiam justo.,1.1
+169,68,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",1.4
+154,87,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,2.2
+90,142,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",0.4
+164,79,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,0.9
+99,71,Donec ut dolor.,4.0
+77,164,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",3.5
+20,8,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,1.8
+8,40,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,1.0
+35,121,Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.,2.3
+81,105,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",2.1
+89,104,Curabitur at ipsum ac tellus semper interdum.,4.4
+91,28,In hac habitasse platea dictumst.,2.7
+152,116,Pellentesque viverra pede ac diam.,3.4
+78,93,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",3.0
+159,61,Aliquam non mauris.,0.9
+48,139,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,3.2
+176,111,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",1.1
+63,44,Nunc purus. Phasellus in felis. Donec semper sapien a libero.,2.2
+16,56,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",0.1
+143,23,Duis aliquam convallis nunc.,0.4
+43,11,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,1.5
+119,68,Duis at velit eu est congue elementum.,1.1
+57,101,Aliquam sit amet diam in magna bibendum imperdiet.,3.3
+110,87,Integer ac leo. Pellentesque ultrices mattis odio.,3.4
+66,159,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.,3.8
+176,169,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,4.3
+159,60,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",1.9
+147,32,Morbi a ipsum. Integer a nibh. In quis justo.,4.5
+21,116,Aliquam erat volutpat. In congue.,0.9
+158,7,Sed ante. Vivamus tortor.,0.4
+135,106,Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.,0.5
+180,73,Aliquam sit amet diam in magna bibendum imperdiet.,1.8
+48,24,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",2.3
+61,78,Integer a nibh.,1.7
+9,151,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",1.7
+105,93,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",1.9
+15,78,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,1.0
+57,154,Morbi non quam nec dui luctus rutrum. Nulla tellus.,1.5
+10,159,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2.1
+21,40,Donec vitae nisi.,0.2
+51,18,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",4.3
+145,82,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.,2.9
+94,25,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,3.4
+115,37,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",0.7
+125,111,Aenean fermentum.,2.5
+104,23,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,2.2
+175,42,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",4.8
+103,64,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",2.2
+180,97,Phasellus in felis.,4.4
+170,103,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",0.2
+122,57,Aliquam non mauris. Morbi non lectus.,4.7
+1,177,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,3.6
+12,174,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,3.4
+134,61,Integer ac neque. Duis bibendum.,0.2
+122,146,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.,1.2
+91,117,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",2.1
+32,50,Praesent blandit lacinia erat.,3.1
+136,117,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",1.7
+10,64,In congue. Etiam justo. Etiam pretium iaculis justo.,2.8
+152,34,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",1.4
+147,113,Integer ac neque.,2.1
+109,23,Duis bibendum. Morbi non quam nec dui luctus rutrum.,3.9
+135,108,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.,0.1
+157,103,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",2.6
+16,25,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,0.1
+89,176,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,1.2
+14,60,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",0.9
+3,6,Vivamus vel nulla eget eros elementum pellentesque.,4.2
+152,30,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",1.2
+67,45,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,4.9
+124,162,Sed vel enim sit amet nunc viverra dapibus.,3.9
+109,152,Nam dui.,4.6
+104,99,Nullam molestie nibh in lectus. Pellentesque at nulla.,4.4
+146,37,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,0.3
+173,1,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",0.3
+99,58,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",2.8
+23,42,Nam dui.,1.1
+134,127,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",4.6
+105,80,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",0.6
+5,145,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",3.9
+52,43,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",0.7
+152,161,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",1.7
+180,53,Nulla ut erat id mauris vulputate elementum. Nullam varius.,3.8
+82,30,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",2.6
+54,4,Pellentesque eget nunc.,3.8
+73,81,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",4.4
+14,67,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,2.3
+73,98,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,1.0
+1,105,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",3.8
+10,35,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",3.5
+94,27,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",4.9
+60,17,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",1.7
+68,110,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2.1
+146,10,Pellentesque ultrices mattis odio.,0.7
+1,175,Praesent lectus.,3.3
+104,100,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",2.6
+14,130,Fusce consequat. Nulla nisl.,4.7
+96,68,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,4.3
+55,165,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,2.0
+55,121,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",0.6
+1,13,Quisque id justo sit amet sapien dignissim vestibulum.,3.7
+8,147,Pellentesque ultrices mattis odio.,5.0
+24,26,Aliquam non mauris. Morbi non lectus.,4.2
+110,15,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",1.1
+146,67,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,1.2
+158,107,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",2.5
+114,26,Donec posuere metus vitae ipsum.,2.2
+9,53,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,2.6
+17,173,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,2.6
+147,174,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,0.2
+122,83,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",4.5
+63,116,In hac habitasse platea dictumst.,1.5
+4,166,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",2.8
+74,102,Ut at dolor quis odio consequat varius.,4.9
+153,97,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,3.1
+154,157,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",1.3
+137,163,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,3.2
+2,161,Nullam varius.,1.9
+1,111,Fusce consequat. Nulla nisl. Nunc nisl.,0.7
+6,148,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",4.7
+43,165,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",2.8
+24,158,In quis justo. Maecenas rhoncus aliquam lacus.,0.4
+138,118,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",2.7
+14,10,Nulla ut erat id mauris vulputate elementum. Nullam varius.,4.4
+119,25,In hac habitasse platea dictumst.,0.7
+100,66,Duis aliquam convallis nunc.,0.7
+77,6,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",2.1
+130,146,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",4.2
+8,30,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",2.6
+72,1,Aenean sit amet justo.,0.2
+98,162,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,3.8
+136,160,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,2.3
+158,4,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,4.3
+113,56,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",4.3
+157,163,Donec ut mauris eget massa tempor convallis.,2.9
+47,42,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",0.0
+45,35,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",2.9
+22,55,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.,3.4
+40,70,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,4.0
+36,4,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.,0.4
+72,71,"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",2.9
+166,76,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,3.9
+28,128,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",3.9
+29,27,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,1.9
+74,104,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.,0.1
+139,155,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",2.2
+4,148,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",1.4
+10,141,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,1.3
+31,159,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",4.2
+107,150,Phasellus in felis. Donec semper sapien a libero.,3.8
+9,113,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.,1.4
+113,117,Donec ut mauris eget massa tempor convallis.,3.8
+75,158,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",1.1
+137,41,Praesent lectus.,3.8
+180,47,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,0.3
+70,85,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",0.4
+169,117,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,4.0
+108,87,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,4.1
+41,128,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",2.3
+113,102,"In est risus, auctor sed, tristique in, tempus sit amet, sem.",2.3
+142,131,Nunc purus. Phasellus in felis. Donec semper sapien a libero.,0.2
+121,70,Duis bibendum. Morbi non quam nec dui luctus rutrum.,1.4
+33,81,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",1.8
+14,111,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",2.2
+89,115,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",1.1
+103,23,Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.,4.1
+169,56,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",4.4
+19,9,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.,0.4
+89,55,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,1.2
+113,82,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,1.6
+9,174,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",2.3
+111,41,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",4.9
+170,4,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.,4.7
+20,177,Nunc purus. Phasellus in felis. Donec semper sapien a libero.,4.0
+180,21,Duis consequat dui nec nisi volutpat eleifend.,1.4
+150,14,Praesent id massa id nisl venenatis lacinia.,5.0
+132,162,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",0.2
+35,90,Duis ac nibh.,2.0
+99,47,Nam dui.,2.4
+166,142,Phasellus in felis. Donec semper sapien a libero.,3.8
+73,81,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,1.4
+12,44,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,3.2
+21,12,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.,2.0
+124,53,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,2.8
+94,154,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",1.5
+85,157,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",3.1
+95,59,Ut at dolor quis odio consequat varius.,0.6
+117,62,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",1.5
+59,164,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.,0.0
+161,83,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",4.8
+58,179,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",4.0
+86,146,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",1.6
+171,102,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,5.0
+99,17,Aliquam sit amet diam in magna bibendum imperdiet.,0.6
+172,95,Integer ac leo.,4.7
+6,69,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,1.0
+138,1,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,0.4
+125,145,Proin at turpis a pede posuere nonummy.,2.4
+14,124,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",0.5
+125,58,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,3.3
+130,57,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",1.5
+29,33,Nullam sit amet turpis elementum ligula vehicula consequat.,2.3
+107,140,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.,3.7
+89,139,Integer a nibh. In quis justo.,2.1
+86,42,Fusce consequat.,2.7
+6,78,Nunc rhoncus dui vel sem.,3.7
+13,62,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,2.8
+137,132,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",0.1
+140,120,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",2.5
+165,70,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",1.8
+84,140,Donec semper sapien a libero.,2.1
+83,143,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",4.4
+34,116,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",1.7
+18,148,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.,2.2
+34,97,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,4.9
+77,40,Nulla tellus.,0.6
+36,101,Nullam sit amet turpis elementum ligula vehicula consequat.,4.2
+89,35,Nullam sit amet turpis elementum ligula vehicula consequat.,0.2
+168,150,Phasellus id sapien in sapien iaculis congue.,0.5
+34,92,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",4.8
+92,106,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",4.1
+1,63,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",0.1
+11,179,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",3.7
+27,28,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",1.8
+139,20,Proin risus.,2.6
+140,78,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",0.1
+15,38,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,4.9
+66,123,Nam nulla.,3.3
+129,46,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",3.9
+37,176,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.,4.0
+142,94,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",2.4
+38,131,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.,1.0
+135,103,Pellentesque at nulla. Suspendisse potenti.,2.8
+120,96,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",1.6
+32,1,Curabitur at ipsum ac tellus semper interdum.,1.1
+142,14,"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",0.6
+89,22,Nulla ut erat id mauris vulputate elementum. Nullam varius.,2.2
+109,102,Suspendisse potenti.,1.7
+82,15,Suspendisse potenti.,3.7
+140,178,In congue. Etiam justo. Etiam pretium iaculis justo.,0.4
+72,128,Phasellus sit amet erat. Nulla tempus.,0.8
+26,7,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",1.0
+179,122,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",1.5
+37,91,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",4.1
+122,1,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",0.9
+125,164,Morbi quis tortor id nulla ultrices aliquet.,3.5
+80,103,In quis justo. Maecenas rhoncus aliquam lacus.,2.5
+85,48,Duis aliquam convallis nunc.,4.8
+74,98,Donec quis orci eget orci vehicula condimentum.,3.3
+151,167,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",3.5
+10,3,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",3.2
+151,143,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,4.2
+70,46,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.,2.2
+22,141,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",2.0
+168,130,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",1.6
+142,34,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.,4.1
+150,69,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",1.1
+5,177,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",1.4
+103,165,Curabitur gravida nisi at nibh.,4.3
+147,21,Maecenas ut massa quis augue luctus tincidunt.,0.6
+36,78,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,3.0
+12,4,"In est risus, auctor sed, tristique in, tempus sit amet, sem.",4.0
+92,104,Etiam vel augue. Vestibulum rutrum rutrum neque.,2.7
+112,102,Proin risus. Praesent lectus.,1.1
+41,112,Suspendisse accumsan tortor quis turpis.,2.3
+28,159,Suspendisse potenti.,4.9
+87,33,Nulla mollis molestie lorem. Quisque ut erat.,2.4
+13,163,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",2.4
+120,47,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,0.6
+172,77,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",1.8
+146,70,Maecenas ut massa quis augue luctus tincidunt.,0.2
+84,42,Nulla ut erat id mauris vulputate elementum.,2.6
+29,96,Nulla ut erat id mauris vulputate elementum.,1.3
+62,138,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",4.5
+24,121,Nulla mollis molestie lorem. Quisque ut erat.,2.6
+41,171,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,2.1
+104,90,Morbi porttitor lorem id ligula.,1.8
+55,34,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",3.6
+96,40,Pellentesque ultrices mattis odio. Donec vitae nisi.,3.4
+20,52,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",0.2
+149,101,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",4.9
+122,39,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",1.2
+62,110,Fusce consequat. Nulla nisl.,0.4
+29,91,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",3.6
+176,38,Duis consequat dui nec nisi volutpat eleifend.,2.1
+52,97,Aenean sit amet justo. Morbi ut odio.,1.0
+45,139,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,2.9
+122,122,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",2.1
+180,152,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",1.7
+10,43,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,4.7
+62,37,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",3.9
+37,103,Vivamus tortor.,0.1
+63,43,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,0.0
+14,5,Sed sagittis.,0.7
+166,78,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",1.7
+76,153,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",3.3
+91,76,Aliquam non mauris. Morbi non lectus.,1.6
+35,23,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",3.6
+36,65,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",4.9
+127,107,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",2.8
+79,158,In sagittis dui vel nisl. Duis ac nibh.,4.9
+128,37,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",0.5
+140,172,"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",1.2
+11,170,Nulla mollis molestie lorem. Quisque ut erat.,3.5
+112,37,Nunc rhoncus dui vel sem. Sed sagittis.,2.8
+46,135,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",0.3
+17,50,Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,2.0
+102,25,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",0.5
+86,16,Fusce consequat.,2.9
+93,85,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",1.1
+7,72,Etiam pretium iaculis justo.,2.2
+15,76,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,1.3
+67,58,Quisque id justo sit amet sapien dignissim vestibulum.,4.3
+168,167,Nam tristique tortor eu pede.,3.1
+132,49,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",1.6
+51,174,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,0.9
+11,115,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.,0.3
+93,139,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.,3.7
+97,84,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,2.9
+10,125,In hac habitasse platea dictumst.,4.4
+139,106,Phasellus in felis. Donec semper sapien a libero.,3.0
+54,25,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,3.1
+3,87,Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.,2.5
+152,68,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",4.7
+72,128,Pellentesque eget nunc.,4.1
+144,13,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",3.8
+117,114,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",2.6
+141,147,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",1.4
+75,88,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",2.4
+76,19,Donec vitae nisi.,4.0
+95,87,Etiam faucibus cursus urna. Ut tellus.,2.9
+94,62,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",5.0
+40,174,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,3.5
+59,75,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",2.9
+82,76,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,0.9
+49,88,Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.,0.2
+168,112,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,4.9
+166,107,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",0.1
+67,71,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.,3.8
+66,150,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",2.9
+165,127,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,4.2
+7,158,Morbi a ipsum. Integer a nibh. In quis justo.,0.6
+115,153,Pellentesque at nulla.,3.7
+82,112,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,1.8
+104,60,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",1.1
+39,99,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",4.7
+160,89,Pellentesque ultrices mattis odio.,4.9
+85,24,Mauris lacinia sapien quis libero.,0.5
+20,7,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,0.2
+77,34,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.,4.9
+178,100,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",1.3
+59,72,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",4.8
+50,97,Maecenas tincidunt lacus at velit.,2.3
+88,171,Suspendisse potenti.,2.3
+48,21,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",0.6
+86,17,Morbi porttitor lorem id ligula.,1.8
