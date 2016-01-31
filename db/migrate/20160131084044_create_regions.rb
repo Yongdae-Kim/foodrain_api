@@ -1,6 +1,6 @@
 class CreateRegions < ActiveRecord::Migration[5.0]
   def change
-    create_table :regions do |t|
+    create_table :regions, primary_key: 'region_id' do |t|
       t.string :do
       t.string :gu
       t.string :dong

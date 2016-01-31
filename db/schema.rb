@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160131043155) do
+ActiveRecord::Schema.define(version: 20160131084044) do
 
   create_table "common_codes", primary_key: "common_code_id", force: :cascade do |t|
     t.string   "main_code"
@@ -31,6 +31,16 @@ ActiveRecord::Schema.define(version: 20160131043155) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.index ["imageable_type", "imageable_id"], name: "index_images_on_imageable_type_and_imageable_id"
+  end
+
+  create_table "regions", primary_key: "region_id", force: :cascade do |t|
+    t.string   "do"
+    t.string   "gu"
+    t.string   "dong"
+    t.float    "longitude"
+    t.float    "latitude"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "reviews", primary_key: "review_id", force: :cascade do |t|
