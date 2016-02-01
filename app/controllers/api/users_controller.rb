@@ -2,14 +2,16 @@ module Api
   class UsersController < ApplicationController
     include ImageHelper
 
-    before_action :set_user
     skip_before_filter :verify_authenticity_token, only: [:create, :signup]
 
     def index
+      @user = UserAuth.find_by_access_token(params[:access_token]).user
     end
 
     def create
+      @user = UserAuth.find_by_access_token(params[:access_token]).user
       add_user_param(@user)
+      ImageHelper.update_single_image(params[:image], @user)
       @user.save!
     end
 
@@ -20,6 +22,7 @@ module Api
     def signup
       @user = User.new
       add_user_param(@user)
+      ImageHelper.create_single_image(params[:image], @user)
       @user.save!
     end
 
@@ -27,10 +30,6 @@ module Api
     end
 
     private
-
-    def set_user
-      @user = UserAuth.find_by_access_token(params[:access_token]).user
-    end
 
     def add_user_param(user)
       user.email = params[:email]

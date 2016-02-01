@@ -12,4 +12,8 @@ class User < ApplicationRecord
   def gen_user_auth
     UsersHelper.gen_user_auth(self)
   end
+
+  scope :signin, lambda { |email, password|
+    where(email: email).where(password: password) if email.present?
+  }
 end
