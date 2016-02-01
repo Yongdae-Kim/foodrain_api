@@ -15,7 +15,7 @@ Rails.application.routes.draw do
     resources :stores, only: [:index, :show] do
       resources :reviews, only: :index
     end
-    resources :users, only: [:index, :update] do
+    resources :users, only: [:index, :create] do
       collection do
         post :authentication
         post :signup
