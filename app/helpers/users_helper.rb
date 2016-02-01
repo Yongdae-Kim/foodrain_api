@@ -10,7 +10,7 @@ module UsersHelper
   end
 
   def self.get_access_token(user)
-    id = user.id
+    id = user.user_id
     pw = user.password
     realm = Digest::SHA1.hexdigest(SecureRandom.base64)
     Digest::MD5.hexdigest([id, realm, pw].join(':'))
