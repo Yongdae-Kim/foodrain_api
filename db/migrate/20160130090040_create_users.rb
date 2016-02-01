@@ -6,6 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :nickname
       t.string :phone
       t.integer :gender
+      t.integer :reviews_count, default: 0
 
       t.timestamps
     end

@@ -82,8 +82,9 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.time     "start_time"
     t.time     "end_time"
     t.string   "holiday"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.integer  "reviews_count",  default: 0
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
     t.index ["store_owner_id"], name: "index_stores_on_store_owner_id"
   end
 
@@ -93,8 +94,9 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.string   "nickname"
     t.string   "phone"
     t.integer  "gender"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "reviews_count", default: 0
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
 end
