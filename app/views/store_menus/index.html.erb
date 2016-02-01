@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Store</th>
+      <th>Image</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -13,6 +14,13 @@
   <tbody>
     <% @store_menus.each do |store_menu| %>
       <tr>
+        <td>
+        <% if store_menu.image.present? %>
+          <img src= <%= store_menu.image.image.url %>>
+        <% else %>
+          이미지 없음
+        <% end %>
+        </td>
         <td><%= store_menu.store %></td>
         <td><%= link_to 'Show', store_menu %></td>
         <td><%= link_to 'Edit', edit_store_menu_path(store_menu) %></td>

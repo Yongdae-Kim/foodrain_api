@@ -1,6 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <% @store.images.each do |si| %>
+    <img src= <%= si.image.url %>>
+  <% end %>
+</p>
+
+<p>
   <strong>Category:</strong>
   <%= @store.category_id %>
 </p>

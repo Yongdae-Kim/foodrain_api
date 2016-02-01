@@ -1,4 +1,6 @@
 class ReviewsController < ApplicationController
+  include ImageHelper
+
   before_action :set_review, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
@@ -22,12 +24,14 @@ class ReviewsController < ApplicationController
 
   def create
     @review = Review.new(review_params)
+    ImageHelper.create_multiple_images(params[:images], @review)
     @review.save
     respond_with(@review)
   end
 
   def update
     @review.update(review_params)
+    ImageHelper.update_multiple_images(params[:images], @review)
     respond_with(@review)
   end
 

@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Image</th>
       <th>Email</th>
       <th>Password</th>
       <th>Nickname</th>
@@ -17,6 +18,13 @@
   <tbody>
     <% @users.each do |user| %>
       <tr>
+        <td>
+        <% if user.image.present? %>
+          <img src= <%= user.image.image.url %>>
+        <% else %>
+          이미지 없음
+        <% end %> 
+        </td>
         <td><%= user.email %></td>
         <td><%= user.password %></td>
         <td><%= user.nickname %></td>

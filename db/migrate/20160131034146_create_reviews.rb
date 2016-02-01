@@ -4,7 +4,7 @@ class CreateReviews < ActiveRecord::Migration[5.0]
       t.references :store, index: true, foreign_key: true
       t.references :user, index: true, foreign_key: true
       t.text :detail
-      t.float :grade
+      t.float :grade, default: 4.0
 
       t.timestamps
     end

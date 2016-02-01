@@ -47,9 +47,9 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.integer  "store_id"
     t.integer  "user_id"
     t.text     "detail"
-    t.float    "grade"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.float    "grade",      default: 4.0
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
     t.index ["store_id"], name: "index_reviews_on_store_id"
     t.index ["user_id"], name: "index_reviews_on_user_id"
   end
@@ -83,8 +83,9 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.datetime "end_time"
     t.string   "holiday"
     t.integer  "reviews_count",  default: 0
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
+    t.float    "grade_total",    default: 0.0
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
     t.index ["store_owner_id"], name: "index_stores_on_store_owner_id"
   end
 

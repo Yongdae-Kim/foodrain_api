@@ -13,6 +13,7 @@ class CreateStores < ActiveRecord::Migration[5.0]
       t.datetime :end_time
       t.string :holiday
       t.integer :reviews_count, default: 0
+      t.float :grade_total, default: 0
 
       t.timestamps
     end

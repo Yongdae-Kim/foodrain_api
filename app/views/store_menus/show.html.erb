@@ -1,6 +1,15 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Image:</strong>
+  <% if @store_menu.image.present? %>
+    <img src= <%= @store_menu.image.image.url %>
+  <% else %>
+    이미지 없음
+  <% end %>
+</p>
+
+<p>
   <strong>Store:</strong>
   <%= @store_menu.store %>
 </p>

@@ -1,5 +1,5 @@
 class StoreMenu < ApplicationRecord
   belongs_to :store
 
-  has_many :images, as: :imageable
+  has_one :image, as: :imageable
 end

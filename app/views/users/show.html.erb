@@ -1,6 +1,15 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Image:</strong>
+  <% if @user.image.present? %>
+    <img src= <%= @user.image.image.url %>
+  <% else %>
+    이미지 없음
+  <% end %>
+</p>
+
+<p>
   <strong>Email:</strong>
   <%= @user.email %>
 </p>

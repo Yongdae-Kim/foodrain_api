@@ -1,6 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <% @review.images.each do |ri| %>
+    <img src= <%= ri.image.url %>>
+  <% end %>
+</p>
+
+<p>
   <strong>Store:</strong>
   <%= @review.store %>
 </p>

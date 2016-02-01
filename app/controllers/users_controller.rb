@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  include ImageHelper
+
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
@@ -22,12 +24,14 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
+    ImageHelper.create_single_image(params[:image], @user)
     @user.save
     respond_with(@user)
   end
 
   def update
     @user.update(user_params)
+    ImageHelper.update_single_image(params[:image], @user)
     respond_with(@user)
   end
 
@@ -44,7 +48,7 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(
-      :email, :password, :nickname, :phone, :gender
+      :email, :password, :nickname, :phone, :gender, :image
     )
   end
 end

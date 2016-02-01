@@ -1,4 +1,6 @@
 class StoreMenusController < ApplicationController
+  include ImageHelper
+
   before_action :set_store_menu, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
@@ -22,12 +24,14 @@ class StoreMenusController < ApplicationController
 
   def create
     @store_menu = StoreMenu.new(store_menu_params)
+    ImageHelper.create_single_image(params[:image], @store_menu)
     @store_menu.save
     respond_with(@store_menu)
   end
 
   def update
     @store_menu.update(store_menu_params)
+    ImageHelper.update_single_image(params[:image], @store_menu)
     respond_with(@store_menu)
   end
 
@@ -43,6 +47,6 @@ class StoreMenusController < ApplicationController
   end
 
   def store_menu_params
-    params.require(:store_menu).permit(:store_id)
+    params.require(:store_menu).permit(:store_id, :image)
   end
 end
