@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     resources :regions, only: :index
     resources :categories, only: :index
     resources :reviews, only: :index
-    resources :stores, only: :index
+    resources :stores, only: [:index, :show]
   end
 
   # Serve websocket cable requests in-process

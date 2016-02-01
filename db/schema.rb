@@ -79,8 +79,8 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.float    "latitude"
     t.string   "phone"
     t.text     "detail"
-    t.time     "start_time"
-    t.time     "end_time"
+    t.datetime "start_time"
+    t.datetime "end_time"
     t.string   "holiday"
     t.integer  "reviews_count",  default: 0
     t.datetime "created_at",                 null: false

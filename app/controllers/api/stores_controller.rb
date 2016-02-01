@@ -7,5 +7,9 @@ module Api
                 .all
                 .page(params[:page])
     end
+
+    def show
+      @store = Store.find(params[:id])
+    end
   end
 end

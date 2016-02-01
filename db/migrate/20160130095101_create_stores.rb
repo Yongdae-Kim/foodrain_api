@@ -9,8 +9,8 @@ class CreateStores < ActiveRecord::Migration[5.0]
       t.float :latitude
       t.string :phone
       t.text :detail
-      t.time :start_time
-      t.time :end_time
+      t.datetime :start_time
+      t.datetime :end_time
       t.string :holiday
       t.integer :reviews_count, default: 0
 
