@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160131084044) do
+ActiveRecord::Schema.define(version: 20160201111236) do
 
   create_table "common_codes", primary_key: "common_code_id", force: :cascade do |t|
     t.string   "main_code"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "images", force: :cascade do |t|
+  create_table "images", primary_key: "image_id", force: :cascade do |t|
     t.string   "imageable_type"
     t.integer  "imageable_id"
     t.datetime "created_at",         null: false
@@ -87,6 +87,14 @@ ActiveRecord::Schema.define(version: 20160131084044) do
     t.datetime "created_at",                   null: false
     t.datetime "updated_at",                   null: false
     t.index ["store_owner_id"], name: "index_stores_on_store_owner_id"
+  end
+
+  create_table "user_auths", primary_key: "user_auth_id", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "access_token"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["user_id"], name: "index_user_auths_on_user_id"
   end
 
   create_table "users", primary_key: "user_id", force: :cascade do |t|

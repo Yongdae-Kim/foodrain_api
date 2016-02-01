@@ -5,13 +5,9 @@ json.address @store.address
 json.start_time @store.start_time.strftime('%H:%M')
 json.end_time @store.end_time.strftime('%H:%M')
 json.holiday @store.holiday
-json.review_cnt @store.reviews.size
-if @store.grade_total?
-  avg = (@store.grade_total / @store.reviews.size).round(1)
-else
-  avg = 0
-end
-json.grade_avg avg
+cnt = @store.reviews.size
+json.review_cnt cnt
+json.grade_avg @store.grade_total ? (@store.grade_total / cnt).round(1) : 0
 if @store.store_menus
   json.menus @store.store_menus do |menu|
     json.uri menu.image.image.url
