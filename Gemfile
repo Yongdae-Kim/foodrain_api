@@ -55,3 +55,5 @@ gem 'responders', '~> 2.0'
 gem "paperclip", "~> 4.3"
 # Kaminari
 gem 'kaminari'
+# Geocoder
+gem 'geocoder'
