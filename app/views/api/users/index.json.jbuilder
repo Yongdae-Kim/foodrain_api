@@ -1,4 +1,4 @@
-json.id @user.id
+json.id @user.user_id
 json.email @user.email
 json.password @user.password
 json.nickname @user.nickname

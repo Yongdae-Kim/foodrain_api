@@ -1,6 +1,6 @@
-json.access_token @user.user_auths.last.access_token
+json.access_token @token
 json.user do
-  json.id @user.id
+  json.id @user.user_id
   json.email @user.email
   json.password @user.password
   json.nickname @user.nickname
