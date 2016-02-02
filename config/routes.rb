@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
   resources :regions
   resources :store_menus
   resources :reviews
@@ -17,6 +19,7 @@ Rails.application.routes.draw do
     end
     resources :users, only: [:index, :create] do
       collection do
+        get :reviews
         post :authentication
         post :signup
         post :signin

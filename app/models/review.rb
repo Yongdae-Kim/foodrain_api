@@ -7,13 +7,13 @@ class Review < ApplicationRecord
   belongs_to :user, counter_cache: true
   has_many :images, as: :imageable
 
-  def self.find_by_store(store_id)
+  scope :find_by_store, lambda { |store_id|
     where(store_id: store_id.to_i) if store_id.present?
-  end
+  }
 
-  def self.find_by_user(user_id)
+  scope :find_by_user, lambda { |user_id|
     where(user_id: user_id.to_i) if user_id.present?
-  end
+  }
 
   private
 
