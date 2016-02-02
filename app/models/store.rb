@@ -4,7 +4,8 @@ class Store < ApplicationRecord
   paginates_per 20
 
   # Geocoder
-  geocoded_by :address_for_geocode, latitude: :latitude, longitude: :longitude
+  geocoded_by :address, latitude: :latitude, longitude: :longitude
+  after_validation :geocode
 
   belongs_to :store_owner
 
