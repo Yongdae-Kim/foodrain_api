@@ -3,7 +3,11 @@ class User < ApplicationRecord
   has_many :user_auths
   has_many :reviews
 
-  scope :is_existed, lambda { |email|
-    find_by(email: email).present?
-  }
+  def self.duplicated_email(email)
+    find_by(email: email).present? if email.present?
+  end
+
+  def self.existed_user(email, password)
+    find_by(email: email, password: password) if (email && password).present?
+  end
 end
