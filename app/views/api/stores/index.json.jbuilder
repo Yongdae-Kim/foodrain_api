@@ -3,7 +3,6 @@ json.total @stores.total_pages
 json.records @stores.size
 json.rows @stores do |store|
   json.id store.id
-  json.category store.category_name
   json.name store.name
   json.address store.address
   cnt = store.reviews.size

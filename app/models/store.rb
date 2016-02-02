@@ -1,7 +1,10 @@
 class Store < ApplicationRecord
   after_initialize :set_default_values
-
+  # Paging
   paginates_per 20
+
+  # Geocoder
+  geocoded_by :address_for_geocode, latitude: :latitude, longitude: :longitude
 
   belongs_to :store_owner
 
@@ -13,8 +16,16 @@ class Store < ApplicationRecord
     where(category_id: category) if category.present?
   }
 
+  scope :find_by_location, lambda { |lng, lat|
+    near([lng, lat], 1) if (lng && lat).present?
+  }
+
   def category_name
     CommonCode.find_by_code('CATEGORY', category_id)
+  end
+
+  def distance(lng, lat)
+    (distance_to([lng, lat]) * 1000).round if (lng && lat).present?
   end
 
   private

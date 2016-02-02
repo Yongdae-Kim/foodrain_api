@@ -2,6 +2,7 @@ module Api
   class StoresController < ApplicationController
     def index
       @stores = Store
+                .find_by_location(params[:longitude], params[:latitude])
                 .find_by_category(params[:category])
                 .includes(:images)
                 .all
