@@ -1,5 +1,5 @@
 class Region < ApplicationRecord
-  scope :find_by_name, lambda { |name|
+  def self.find_by_name(name)
     where('dong LIKE ?', "%#{name}%") if name.present?
-  }
+  end
 end
