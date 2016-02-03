@@ -3,13 +3,14 @@ module Api
     include ImageHelper
     include UsersHelper
 
+    before_action :set_user_auth, :set_review
+
     skip_before_filter :verify_authenticity_token, only:
       [:create, :authentication, :signup,
        :signin, :reviews, :review_update, :review_destroy]
 
     def index
       # 사용자 인증이 안되면 에러 제이선 출력
-      @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.present?
         @user = @user_auth.user
       end
@@ -17,7 +18,6 @@ module Api
 
     def modify
       # 사용자 인증이 안되면 에러 제이선 출력
-      @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.user.present?
         @user = @user_auth.user
         add_user_param(@user)
@@ -28,7 +28,6 @@ module Api
 
     def authentication
       # 사용자 인증이 안되면 에러 제이선 출력
-      @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.user.present?
         @token = UsersHelper.gen_user_auth(@user_auth.user).access_token
       end
@@ -56,7 +55,6 @@ module Api
 
     def reviews
       # 사용자 인증이 안되면 에러 제이선 출력
-      @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.user.present?
         @user = @user_auth.user
         @reviews = @user.reviews.includes(:store, :images).all.page(params[:page])
@@ -64,8 +62,6 @@ module Api
     end
 
     def review_update
-      @user_auth = UserAuth.find_by_access_token(params[:access_token])
-      @review = Review.find(params[:review_id])
       if (@user_auth.user && @review). present?
         @review.detail = params[:detail]
         @review.grade = params[:grade]
@@ -74,8 +70,6 @@ module Api
     end
 
     def review_destroy
-      @user_auth = UserAuth.find_by_access_token(params[:access_token])
-      @review = Review.find(params[:review_id])
       if (@user_auth.user && @review). present?
         @review.destroy
       end
@@ -89,6 +83,14 @@ module Api
       user.phone = params[:phone]
       user.nickname = params[:nickname]
       user.gender = params[:gender]
+    end
+
+    def set_user_auth
+      @user_auth = UserAuth.find_by_access_token(params[:access_token])
+    end
+
+    def set_review
+      @review = Review.find(params[:review_id])
     end
   end
 end
