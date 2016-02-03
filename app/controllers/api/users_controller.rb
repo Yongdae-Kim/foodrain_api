@@ -12,7 +12,7 @@ module Api
       @user = @user_auth.user if @user_auth.present?
     end
 
-    def create
+    def modify
       # 사용자 인증이 안되면 에러 제이선 출력
       @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.user.present?

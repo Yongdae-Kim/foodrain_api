@@ -5,11 +5,62 @@
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= stylesheet_link_tag 'theme/css/bootstrap' %>
+    <%= stylesheet_link_tag 'theme/morris/morris-0.4.3.min' %>
+    <%= stylesheet_link_tag 'theme/css/custom' %>
+ 
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'theme/js/jquery-1.10.2' %>
+    <%= javascript_include_tag 'theme/js/bootstrap.min' %>
+    <%= javascript_include_tag 'theme/js/jquery.metisMenu' %>
+    <%= javascript_include_tag 'theme/morris/raphael-2.1.0.min' %>
+    <%= javascript_include_tag 'theme/morris/morris' %>
+    <%= javascript_include_tag 'theme/js/custom' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div id="wrapper">
+      <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/welcome/index">Food Rain</a> 
+        </div>
+        <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;"> Last access : 30 May 2014 &nbsp;
+          <a href="#" class="btn btn-danger square-btn-adjust">Logout</a>
+        </div>
+      </nav>   
+      <!-- /. NAV TOP  -->
+      <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+          <ul class="nav" id="main-menu">
+            <li class="text-center"><img src="/assets/find_user.png" class="user-image img-responsive"/></li>
+            <li><a class="active-menu" href="/welcome/index">대시보드</a></li>
+            <li><a href="/users">사용자 관리</a></li>
+            <li><a href="/store_owners">매장주 관리</a></li>
+            <li><a href="/stores">매장 관리</a></li>
+            <li><a href="/store_menus">매장 메뉴 관리</a></li>
+            <li><a href="/regions">지역 관리</a></li>
+            <li><a href="/reviews">리뷰 관리</a></li> 
+          </ul>  
+        </div>
+      </nav>
+      <!-- /. NAV SIDE  -->
+      <div id="page-wrapper" >
+        <div id="page-inner">
+          <div class="row">
+            <%= yield %>
+          </div>
+        </div>
+      </div>    
+    </div>
+    
   </body>
 </html>

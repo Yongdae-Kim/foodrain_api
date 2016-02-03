@@ -17,9 +17,10 @@ Rails.application.routes.draw do
     resources :stores, only: [:index, :show] do
       resources :reviews, only: :index
     end
-    resources :users, only: [:index, :create] do
+    resources :users, only: :index do
       collection do
         get :reviews
+        post :modify
         post :authentication
         post :signup
         post :signin

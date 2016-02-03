@@ -11,11 +11,11 @@ json.review_count cnt
 json.grade_average @store.grade_total ? (@store.grade_total / cnt).round(1) : 0
 if @store.store_menus
   json.menus @store.store_menus do |menu|
-    json.uri menu.image.image.url
+    json.url menu.image.image.url
   end
 else
   json.menus []
 end
 json.images @store.images do |si|
-  json.uri si.image.url
+  json.url si.image.url
 end

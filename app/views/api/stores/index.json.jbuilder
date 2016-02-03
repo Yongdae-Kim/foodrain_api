@@ -9,6 +9,6 @@ json.rows @stores do |store|
   json.review_count cnt
   json.grade_average store.grade_total ? (store.grade_total / cnt).round(1) : 0
   json.images store.images do |si|
-    json.uri si.image.url
+    json.url si.image.url
   end
 end
