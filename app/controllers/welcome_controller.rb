@@ -1,5 +1,8 @@
 class WelcomeController < ApplicationController
   def index
-    puts 'Hello World'
+    @user_size = User.all.size
+    @store_size = Store.all.size
+    @store_owner_size = StoreOwner.all.size
+    @review_size = Review.all.size
   end
 end

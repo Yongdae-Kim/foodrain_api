@@ -37,9 +37,9 @@
                 <td><%= store_owner.email %></td>
                 <td><%= store_owner.phone %></td>
                 <td><%= store_owner.stores.size %></td>
-                <td align="center"><%= link_to '상세', store_owner, class: "btn btn-primary btn-xs" %></td>
-                <td align="center"><%= link_to '수정', edit_store_owner_path(store_owner), class: "btn btn-warning btn-xs" %></td>
-                <td align="center"><%= link_to '삭제', store_owner, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-xs" %></td>
+                <td align="center"><%= link_to '상세', store_owner, class: "btn btn-primary" %></td>
+                <td align="center"><%= link_to '수정', edit_store_owner_path(store_owner), class: "btn btn-warning" %></td>
+                <td align="center"><%= link_to '삭제', store_owner, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
               </tr>
               <% end %>
             </tbody>

@@ -1,2 +1,234 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<div class="row">
+  <div class="col-md-12">
+    <h2>관리자 페이지</h2>   
+    <h4> 멘트 기억 안남</h4>
+  </div>
+</div>
+<hr />
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        카운트 컨테이너
+      </div>
+      <div class="panel-body">
+      	<div class="col-md-3 col-sm-12 col-xs-12">
+      	  <div class="panel panel-back noti-box">
+            <span class="icon-box bg-color-red set-icon">
+            	<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            </span>
+            <div class="text-box">
+              <p class="main-text"><%= @user_size %> 명</p>
+              <p class="text-muted">사용자</p>
+            </div>
+          </div>
+		    </div>
+		    <div class="col-md-3 col-sm-12 col-xs-12">
+      	  <div class="panel panel-back noti-box">
+            <span class="icon-box bg-color-green set-icon">
+          
+            </span>
+            <div class="text-box">
+              <p class="main-text"><%= @store_size %> 개</p>
+              <p class="text-muted">매장</p>
+            </div>
+          </div>
+		    </div>
+		    <div class="col-md-3 col-sm-12 col-xs-12">
+      	  <div class="panel panel-back noti-box">
+            <span class="icon-box bg-color-blue set-icon">
+            </span>
+            <div class="text-box">
+              <p class="main-text"><%= @store_owner_size %> 명</p>
+              <p class="text-muted">매장주</p>
+            </div>
+          </div>
+		    </div>
+		    <div class="col-md-3 col-sm-12 col-xs-12">
+      	  <div class="panel panel-back noti-box">
+            <span class="icon-box bg-color-brown set-icon">
+            </span>
+            <div class="text-box">
+              <p class="main-text"><%= @review_size %> 개</p>
+              <p class="text-muted">리뷰</p>
+            </div>
+          </div>
+		    </div>
+      </div>
+    </div>
+  </div>
+</div>        
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        차트 컨테이너
+      </div>
+      <div class="panel-body">
+        <div class="col-md-6 col-sm-12 col-xs-12">                     
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              사용자 남녀비율
+            </div>
+            <div class="panel-body">
+              <div id="gender-donut-chart"></div>
+            </div>
+          </div> 
+        </div> 
+        <div class="col-md-6 col-sm-12 col-xs-12">                     
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              음식 카테고리별 식당 점유율
+            </div>
+            <div class="panel-body">
+              <div id="category-donut-chart"></div>
+            </div>
+          </div> 
+        </div> 
+      </div>  
+    </div>
+  </div>
+</div>  
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        표 컨테이너
+      </div>
+      <div class="panel-body">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="panel panel-default">                     
+            <div class="panel-heading">
+              Context Classes
+            </div>
+          
+            <div class="panel-body">
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="success">
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr class="info">
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>4</td>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>@jsmith</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="panel panel-default">                     
+            <div class="panel-heading">
+              Context Classes
+            </div>
+          
+            <div class="panel-body">
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="success">
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr class="info">
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>3</td>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>4</td>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>@jsmith</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>  
+
+<%= javascript_tag do %>
+  Morris.Donut({
+      element: 'gender-donut-chart',
+      data: [{
+          label: "Download Sales",
+          value: 12
+      }, {
+          label: "In-Store Sales",
+          value: 30
+      }, {
+          label: "Mail-Order Sales",
+          value: 20
+      }],
+      resize: true
+  });
+
+  Morris.Donut({
+      element: 'category-donut-chart',
+      data: [{
+          label: "Download Sales",
+          value: 12
+      }, {
+          label: "In-Store Sales",
+          value: 30
+      }, {
+          label: "Mail-Order Sales",
+          value: 20
+      }],
+      resize: true
+  });
+<% end %>
+  
