@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-md-12">
-    <h2>사용자 리뷰 목록</h2>   
+    <h2>리뷰 목록</h2>   
     <h4>총 <%= @reviews.size %> 개의 리뷰가 검색되었습니다.</h4>
   </div>
 </div>
@@ -12,7 +12,7 @@
     <!-- Advanced Tables -->
     <div class="panel panel-default">
       <div class="panel-heading">
-        사용자 리뷰 목록 표
+        리뷰 목록 표
       </div>
       <div class="panel-body">
         <div class="table-responsive">
@@ -46,7 +46,7 @@
     <!--End Advanced Tables -->
   </div>
 </div>              
-<%= link_to '사용자 리뷰 추가하기', new_review_path, class: "btn btn-primary" %>
+<%= link_to '리뷰 추가하기', new_review_path, class: "btn btn-primary" %>
 <%= javascript_tag do %>
   $('#dataTables-example').dataTable();
 <% end %>

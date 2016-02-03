@@ -33,9 +33,9 @@
             <tbody>
               <% @users.each do |user| %>
               <tr class="<%= cycle('even', 'odd') -%>">
-                <td>
+                <td align="center">
                 <% if user.image.present? %>
-                  <img src= <%= user.image.image.url %>>
+                  <img src= <%= user.image.image.url %> width="75" height="75">
                 <% else %>
                   이미지 없음
                 <% end %> 
