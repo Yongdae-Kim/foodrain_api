@@ -4,7 +4,8 @@ module Api
     include UsersHelper
 
     skip_before_filter :verify_authenticity_token, only:
-      [:create, :authentication, :signup, :signin, :reviews]
+      [:create, :authentication, :signup,
+       :signin, :reviews, :review_update, :review_destroy]
 
     def index
       # 사용자 인증이 안되면 에러 제이선 출력
@@ -59,6 +60,24 @@ module Api
       if @user_auth.user.present?
         @user = @user_auth.user
         @reviews = @user.reviews.includes(:store, :images).all.page(params[:page])
+      end
+    end
+
+    def review_update
+      @user_auth = UserAuth.find_by_access_token(params[:access_token])
+      @review = Review.find(params[:review_id])
+      if (@user_auth.user && @review). present?
+        @review.detail = params[:detail]
+        @review.grade = params[:grade]
+        @review.save!
+      end
+    end
+
+    def review_destroy
+      @user_auth = UserAuth.find_by_access_token(params[:access_token])
+      @review = Review.find(params[:review_id])
+      if (@user_auth.user && @review). present?
+        @review.destroy
       end
     end
 

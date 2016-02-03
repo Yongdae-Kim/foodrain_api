@@ -1,5 +1,7 @@
 class Review < ApplicationRecord
-  after_create :calc_store_grade_total
+  after_create :add_store_grade_total
+  before_update :update_store_grade_total
+  before_destroy :subtract_store_grade_total
 
   paginates_per 20
 
@@ -17,8 +19,19 @@ class Review < ApplicationRecord
 
   private
 
-  def calc_store_grade_total
+  def add_store_grade_total
     store.grade_total += grade
+    store.save!
+  end
+
+  def update_store_grade_total
+    store.grade_total -= Review.find(review_id).grade
+    store.grade_total += grade
+    store.save!
+  end
+
+  def subtract_store_grade_total
+    store.grade_total -= grade
     store.save!
   end
 end
