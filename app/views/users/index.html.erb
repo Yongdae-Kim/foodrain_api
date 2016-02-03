@@ -59,3 +59,6 @@
   </div>
 </div>              
 <%= link_to '사용자 추가하기', new_user_path, class: "btn btn-primary" %>
+<%= javascript_tag do %>
+  $('#dataTables-example').dataTable();
+<% end %>

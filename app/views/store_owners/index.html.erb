@@ -1,33 +1,56 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Store Owners</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Email</th>
-      <th>Password</th>
-      <th>Name</th>
-      <th>Phone</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @store_owners.each do |store_owner| %>
-      <tr>
-        <td><%= store_owner.email %></td>
-        <td><%= store_owner.password %></td>
-        <td><%= store_owner.name %></td>
-        <td><%= store_owner.phone %></td>
-        <td><%= link_to 'Show', store_owner %></td>
-        <td><%= link_to 'Edit', edit_store_owner_path(store_owner) %></td>
-        <td><%= link_to 'Destroy', store_owner, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Store Owner', new_store_owner_path %>
+<div class="row">
+  <div class="col-md-12">
+    <h2>매장주 목록</h2>   
+    <h4>전체 <%= @store_owners.size %> 명의 매장주가 검색되었습니다.</h4>
+  </div>
+</div>
+<!-- /. ROW  -->
+<hr />
+           
+<div class="row">
+  <div class="col-md-12">
+    <!-- Advanced Tables -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        Advanced Tables
+      </div>
+      <div class="panel-body">
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+            <thead>
+              <tr>
+                <th>아이디</th>
+                <th>이름</th>
+                <th>이메일</th>
+                <th>휴대폰번호</th>
+                <th>매장 수</th>
+                <th>상세보기</th>
+                <th>수정하기</th>
+                <th>삭제하기</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @store_owners.each do |store_owner| %>
+              <tr class="<%= cycle('even', 'odd') -%>">
+                <td><%= store_owner.store_owner_id %></td>
+                <td><%= store_owner.name %></td>
+                <td><%= store_owner.email %></td>
+                <td><%= store_owner.phone %></td>
+                <td><%= store_owner.stores.size %></td>
+                <td align="center"><%= link_to '상세', store_owner, class: "btn btn-primary btn-xs" %></td>
+                <td align="center"><%= link_to '수정', edit_store_owner_path(store_owner), class: "btn btn-warning btn-xs" %></td>
+                <td align="center"><%= link_to '삭제', store_owner, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-xs" %></td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>       
+      </div>
+    </div>
+    <!--End Advanced Tables -->
+  </div>
+</div>              
+<%= link_to '매장주 추가하기', new_store_owner_path, class: "btn btn-primary" %>
+<%= javascript_tag do %>
+  $('#dataTables-example').dataTable();
+<% end %>
