@@ -35,8 +35,8 @@
           </button>
           <a class="navbar-brand" href="/welcome/index">Food Rain</a> 
         </div>
-        <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;"> Last access : 30 May 2014 &nbsp;
-          <a href="#" class="btn btn-danger square-btn-adjust">Logout</a>
+        <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+          <%= Time.zone.now.to_s(:db) %>
         </div>
       </nav>   
       <!-- /. NAV TOP  -->
@@ -44,7 +44,7 @@
         <div class="sidebar-collapse">
           <ul class="nav" id="main-menu">
             <li class="text-center"><img src="/assets/find_user.png" class="user-image img-responsive"/></li>
-            <li><a class="active-menu" href="/welcome/index">대시보드</a></li>
+            <li><a href="/welcome/index">대시보드</a></li>
             <li><a href="/users">사용자 관리</a></li>
             <li><a href="/store_owners">매장주 관리</a></li>
             <li><a href="/stores">매장 관리</a></li>

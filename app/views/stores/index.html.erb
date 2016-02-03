@@ -1,47 +1,56 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Stores</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Category</th>
-      <th>Name</th>
-      <th>Address</th>
-      <th>Longitude</th>
-      <th>Latitude</th>
-      <th>Phone</th>
-      <th>Detail</th>
-      <th>Start time</th>
-      <th>End time</th>
-      <th>Holiday</th>
-      <th>StoreOwner</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @stores.each do |store| %>
-      <tr>
-        <td><%= store.category_id %></td>
-        <td><%= store.name %></td>
-        <td><%= store.address %></td>
-        <td><%= store.longitude %></td>
-        <td><%= store.latitude %></td>
-        <td><%= store.phone %></td>
-        <td><%= store.detail %></td>
-        <td><%= store.start_time %></td>
-        <td><%= store.end_time %></td>
-        <td><%= store.holiday %></td>
-        <td><%= store.store_owner_id %></td>
-        <td><%= link_to 'Show', store %></td>
-        <td><%= link_to 'Edit', edit_store_path(store) %></td>
-        <td><%= link_to 'Destroy', store, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Store', new_store_path %>
+<div class="row">
+  <div class="col-md-12">
+    <h2>매장 목록</h2>   
+    <h4>전체 <%= @stores.size %> 개의 매장이 검색되었습니다.</h4>
+  </div>
+</div>
+<!-- /. ROW  -->
+<hr />
+           
+<div class="row">
+  <div class="col-md-12">
+    <!-- Advanced Tables -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        매장 목록 표
+      </div>
+      <div class="panel-body">
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+            <thead>
+              <tr>
+                <th>아이디</th>
+                <th>카테고리</th>
+                <th>이름</th>
+                <th>주소</th>
+                <th>전화번호</th>
+                <th>상세보기</th>
+                <th>수정하기</th>
+                <th>삭제하기</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @stores.each do |store| %>
+              <tr class="<%= cycle('even', 'odd') -%>">
+                <td><%= store.store_id %></td>
+                <td><%= store.category_name %></td>
+                <td><%= store.name %></td>
+                <td><%= store.address %></td>
+                <td><%= store.phone %></td>
+                <td align="center"><%= link_to '상세', store, class: "btn btn-primary btn-xs" %></td>
+                <td align="center"><%= link_to '수정', edit_store_path(store), class: "btn btn-warning btn-xs" %></td>
+                <td align="center"><%= link_to '삭제', store, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-xs" %></td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>       
+      </div>
+    </div>
+    <!--End Advanced Tables -->
+  </div>
+</div>              
+<%= link_to '매장 추가하기', new_store_path, class: "btn btn-primary" %>
+<%= javascript_tag do %>
+  $('#dataTables-example').dataTable();
+<% end %>
