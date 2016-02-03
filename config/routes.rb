@@ -27,6 +27,8 @@ Rails.application.routes.draw do
       end
     end
   end
+  match "/api/users/reviews/update" => "api/users#update", via: :post
+  match "/api/users/reviews/destroy" => "api/users#destroy", via: :post
   # Serve websocket cable requests in-process
   # mount ActionCable.server => '/cable'
 end

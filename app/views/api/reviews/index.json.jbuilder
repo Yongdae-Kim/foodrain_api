@@ -11,8 +11,8 @@ json.rows @reviews do |review|
   end
   json.detail review.detail
   json.grade review.grade
-  json.created_at review.created_at
-  json.updated_at review.updated_at
+  json.created_at review.created_at.to_s(:db)
+  json.updated_at review.updated_at.to_s(:db)
   json.images review.images do |ri|
     json.url ri.image.url
   end

@@ -17,8 +17,8 @@ class Store < ApplicationRecord
     where(category_id: category) if category.present?
   }
 
-  scope :find_by_location, lambda { |lng, lat|
-    near([lng, lat], 1) if (lng && lat).present?
+  scope :find_by_location, lambda { |lat, lng|
+    near([lat, lng], 1) if (lng && lat).present?
   }
 
   def category_name

@@ -9,7 +9,9 @@ module Api
     def index
       # 사용자 인증이 안되면 에러 제이선 출력
       @user_auth = UserAuth.find_by_access_token(params[:access_token])
-      @user = @user_auth.user if @user_auth.present?
+      if @user_auth.present?
+        @user = @user_auth.user
+      end
     end
 
     def modify
@@ -24,6 +26,7 @@ module Api
     end
 
     def authentication
+      # 사용자 인증이 안되면 에러 제이선 출력
       @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.user.present?
         @token = UsersHelper.gen_user_auth(@user_auth.user).access_token
@@ -42,6 +45,7 @@ module Api
     end
 
     def signin
+      # 로그인 실패할 경우 제이선 에러 출력
       @user = User.existed_user(params[:email], params[:password])
       if @user.present?
         UsersHelper.gen_user_auth(@user)
@@ -50,6 +54,7 @@ module Api
     end
 
     def reviews
+      # 사용자 인증이 안되면 에러 제이선 출력
       @user_auth = UserAuth.find_by_access_token(params[:access_token])
       if @user_auth.user.present?
         @user = @user_auth.user

@@ -4,6 +4,7 @@
 Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( theme/js/*.js )
 Rails.application.config.assets.precompile += %w( theme/morris/*.js )
+Rails.application.config.assets.precompile += %w( theme/dataTables/*.js )
 
 Rails.application.config.assets.precompile += %w( theme/css/*.css )
 Rails.application.config.assets.precompile += %w( theme/morris/*.css )
