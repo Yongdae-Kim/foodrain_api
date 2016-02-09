@@ -6,8 +6,10 @@
     <%= action_cable_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>   
+    <%= javascript_include_tag 'theme/dataTables/jquery.dataTables' %>
+    <%= javascript_include_tag 'theme/dataTables/dataTables.bootstrap' %>
   </head>
 
   <body>
@@ -30,7 +32,7 @@
       <nav class="navbar-default navbar-side" role="navigation">
         <div class="sidebar-collapse">
           <ul class="nav" id="main-menu">
-            <li class="text-center"><img src="/assets/find_user.png" class="user-image img-responsive"/></li>
+            <li class="text-center"><img src="/assets/admin.png" class="user-image img-responsive"/></li>
             <li><a href="/welcome/index">대시보드</a></li>
             <li><a href="/users">사용자 관리</a></li>
             <li><a href="/store_owners">매장주 관리</a></li>

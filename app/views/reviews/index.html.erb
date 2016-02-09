@@ -20,6 +20,7 @@
             <thead>
               <tr>
                 <th>아이디</th>
+                <th>매장 이름(아이디)</th>
                 <th>내용</th>
                 <th>평점</th>
                 <th>상세보기</th>
@@ -31,6 +32,7 @@
               <% @reviews.each do |review| %>
               <tr class="<%= cycle('even', 'odd') -%>">
                 <td><%= review.review_id %></td>
+                <td><%= review.store.name %>(<%= review.store.store_id %>)</td>
                 <td><%= review.detail %></td>
                 <td><%= review.grade %></td>
                 <td align="center"><%= link_to '상세', review, class: "btn btn-primary" %></td>

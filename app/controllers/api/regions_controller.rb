@@ -4,7 +4,11 @@ module Api
       if (params[:latitude] && params[:longitude]).present?
         request_geocoder(params[:latitude], params[:longitude])
       else
+        start = Time.now
         @regions = Region.all.find_by_name(params[:name])
+        finish = Time.now
+        diff = (finish - start) * 1000.0
+        puts '###### 경과시간 : ' + diff.to_s + ' #####'
       end
     end
 

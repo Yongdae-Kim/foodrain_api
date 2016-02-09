@@ -10,8 +10,9 @@ class Store < ApplicationRecord
   belongs_to :store_owner
 
   has_many :images, as: :imageable
-  has_many :store_menus
   has_many :reviews
+
+  has_many :store_menus
 
   scope :find_by_category, lambda { |category|
     where(category_id: category) if category.present?
@@ -21,12 +22,24 @@ class Store < ApplicationRecord
     near([lat, lng], 1) if (lng && lat).present?
   }
 
+  scope :oreder_by_review_count, lambda { |limit|
+    order(reviews_count: :desc).limit(limit) if limit.present?
+  }
+
+ # scope :oreder_by_grade_average, lambda { |limit|
+ #   order(grade_average: :desc).limit(limit) if limit.present?
+ # }
+
   def category_name
-    CommonCode.find_by_code('CATEGORY', category_id)
+    CommonCode.find_by_category(category_id)
   end
 
   def distance(lng, lat)
     (distance_to([lng, lat]) * 1000).round if (lng && lat).present?
+  end
+
+  def grade_average
+    grade_total == 0 ? 0 : (grade_total / reviews_count).round(1)
   end
 
   private

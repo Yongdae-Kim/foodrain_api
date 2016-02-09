@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   include ImageHelper
+  include UsersHelper
 
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
@@ -26,6 +27,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     ImageHelper.create_single_image(params[:image], @user)
     @user.save
+    UsersHelper.gen_user_auth(@user).access_token
     respond_with(@user)
   end
 

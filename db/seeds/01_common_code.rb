@@ -53,4 +53,18 @@ CommonCode.create(
   detail_id: 11,
   name_kor: '기타'
 )
-
+CommonCode.create(
+  main_code: 'GENDER',
+  detail_id: 0,
+  name_kor: '없음'
+)
+CommonCode.create(
+  main_code: 'GENDER',
+  detail_id: 1,
+  name_kor: '남자'
+)
+CommonCode.create(
+  main_code: 'GENDER',
+  detail_id: 2,
+  name_kor: '여자'
+)

@@ -24,7 +24,6 @@
                 <th>이메일</th>
                 <th>닉네임</th>
                 <th>휴대폰번호</th>
-                <th>성별</th>
                 <th>상세보기</th>
                 <th>수정하기</th>
                 <th>삭제하기</th>
@@ -44,7 +43,6 @@
                 <td><%= user.email %></td>
                 <td><%= user.nickname %></td>
                 <td><%= user.phone %></td>
-                <td><%= user.gender %></td>
                 <td align="center"><%= link_to '상세', user, class: "btn btn-primary" %></td>
                 <td align="center"><%= link_to '수정', edit_user_path(user), class: "btn btn-warning" %></td>
                 <td align="center"><%= link_to '삭제', user, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>

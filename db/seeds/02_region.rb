@@ -64,3 +64,39 @@ Region.create(
   longitude: 127.1145469,
   latitude: 37.5022994
 )
+Region.create(
+  do: '서울특별시',
+  gu: '송파구',
+  dong: '삼전동',
+  longitude: 127.090327,
+  latitude: 37.5026878
+)
+Region.create(
+  do: '서울특별시',
+  gu: '송파구',
+  dong: '오금동',
+  longitude: 127.1259069,
+  latitude: 37.5029661
+)
+Region.create(
+  do: '서울특별시',
+  gu: '송파구',
+  dong: '방이1동',
+  longitude: 127.1216848,
+  latitude: 37.5109373
+)
+Region.create(
+  do: '서울특별시',
+  gu: '송파구',
+  dong: '방이2동',
+  longitude: 127.1122412,
+  latitude: 37.51452
+)
+Region.create(
+  do: '서울특별시',
+  gu: '송파구',
+  dong: '오륜동',
+  longitude: 127.1320726,
+  latitude: 37.5154092
+)
+

@@ -5,5 +5,5 @@ json.user do
   json.password @user.password
   json.nickname @user.nickname
   json.phone @user.phone
-  json.gender @gender
+  json.gender @user.gender
 end

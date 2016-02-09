@@ -34,5 +34,5 @@
   <%= @user.gender %>
 </p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<%= link_to '수정하기', edit_user_path(@user), class: "btn btn-warning" %> |
+<%= link_to '목록보기', users_path, class: "btn btn-primary" %>

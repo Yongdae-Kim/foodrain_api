@@ -11,6 +11,7 @@ module Api
                  .includes(:store, :user, :images)
                  .all
                  .page(params[:page])
+                 .order(updated_at: :DESC)
     end
 
     def create

@@ -7,7 +7,7 @@ Dir[File.join(Rails.root, 'lib/csv', 'store', '*.csv')].each { |csv| csv_text <<
 csv = CSV.parse(csv_text, :headers => true)
 csv.each_with_index do |row, index|
   t = Store.new
-  t.store_owner_id = index + 1
+  t.store_owner_id = rand(1...StoreOwner.all.size-1)
   t.category_id = row['category_id']
   t.name = row['name']
   t.phone = row['phone']

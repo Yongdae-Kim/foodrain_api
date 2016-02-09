@@ -2,17 +2,28 @@ module Api
   class UsersController < ApplicationController
     include ImageHelper
     include UsersHelper
+    include ErrorHelper
 
-    before_action :set_user_auth, :set_review
+    before_action :set_user_auth, only:
+      [:index, :modify, :authentication,
+       :reviews, :review_update, :review_destroy]
+
+    before_action :set_review, only:
+      [:review_update, :review_destroy]
 
     skip_before_filter :verify_authenticity_token, only:
-      [:create, :authentication, :signup,
-       :signin, :reviews, :review_update, :review_destroy]
+      [:create, :authentication, :signup, :signin,
+       :reviews, :review_update, :review_destroy]
 
     def index
       # 사용자 인증이 안되면 에러 제이선 출력
       if @user_auth.present?
         @user = @user_auth.user
+        # else
+        # ErrorHelper.error_handling(
+        #    '사용자 인증 실패', '존재하지 않는 사용자입니다.'
+        # )
+        # render "error.json.jbuilder"
       end
     end
 
@@ -35,7 +46,7 @@ module Api
 
     def signup
       # 사용자 로그인 모든 파라미터 nil 여부 체크 필요
-      if User.duplicated_email(params[:email])
+      if User.available_email(params[:email])
         @user = User.new
         add_user_param(@user)
         ImageHelper.create_single_image(params[:image], @user)
@@ -57,7 +68,7 @@ module Api
       # 사용자 인증이 안되면 에러 제이선 출력
       if @user_auth.user.present?
         @user = @user_auth.user
-        @reviews = @user.reviews.includes(:store, :images).all.page(params[:page])
+        @reviews = @user.reviews.includes(:store, :images).all.page(params[:page]).order(updated_at: :DESC)
       end
     end
 

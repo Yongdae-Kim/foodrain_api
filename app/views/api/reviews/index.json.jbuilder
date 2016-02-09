@@ -7,7 +7,9 @@ json.rows @reviews do |review|
   json.user do
     json.user_id = review.user.id
     json.nickname review.user.nickname
-    json.url review.user.image.image.url if review.user.image
+    json.image do
+      json.url review.user.image_url
+    end
   end
   json.detail review.detail
   json.grade review.grade

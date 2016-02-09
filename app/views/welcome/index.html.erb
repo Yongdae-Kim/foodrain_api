@@ -1,7 +1,6 @@
 <div class="row">
   <div class="col-md-12">
-    <h2>관리자 페이지</h2>   
-    <h4> 멘트 기억 안남</h4>
+    <h2>대시보드</h2>   
   </div>
 </div>
 <hr />
@@ -16,7 +15,6 @@
       	<div class="col-md-3 col-sm-12 col-xs-12">
       	  <div class="panel panel-back noti-box">
             <span class="icon-box bg-color-red set-icon">
-            	<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
             </span>
             <div class="text-box">
               <p class="main-text"><%= @user_size %> 명</p>
@@ -64,23 +62,44 @@
   <div class="col-md-12">
     <div class="panel panel-default">
       <div class="panel-heading">
-        차트 컨테이너
+        표 & 차트 컨테이너
       </div>
       <div class="panel-body">
         <div class="col-md-6 col-sm-12 col-xs-12">                     
           <div class="panel panel-default">
             <div class="panel-heading">
-              사용자 남녀비율
+              [표] 리뷰가 가장 많이 달린 매장 순위
             </div>
             <div class="panel-body">
-              <div id="gender-donut-chart"></div>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>매장 이름</th>
+                        <th>매장주 이름</th>
+                        <th>리뷰 갯수</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% @top_8_stores.each_with_index do |store, index| %>
+                    <tr class="<%= cycle('success', 'info', 'warning', 'danger') -%>">
+                      <td><%= index + 1 %></td>
+                      <td><%= store.name %></td>
+                      <td><%= store.store_owner.name %></td>
+                      <td><%= store.reviews_count %></td>
+                    </tr>
+                    <% end %>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div> 
         </div> 
         <div class="col-md-6 col-sm-12 col-xs-12">                     
           <div class="panel panel-default">
             <div class="panel-heading">
-              음식 카테고리별 식당 점유율
+              [차트] 음식 카테고리별 식당 점유율
             </div>
             <div class="panel-body">
               <div id="category-donut-chart"></div>
@@ -92,143 +111,20 @@
   </div>
 </div>  
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        표 컨테이너
-      </div>
-      <div class="panel-body">
-        <div class="col-md-6 col-sm-12 col-xs-12">
-          <div class="panel panel-default">                     
-            <div class="panel-heading">
-              Context Classes
-            </div>
-          
-            <div class="panel-body">
-              <div class="table-responsive">
-                <table class="table">
-                  <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="success">
-                        <td>1</td>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr class="info">
-                        <td>2</td>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr class="warning">
-                        <td>3</td>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                    <tr class="danger">
-                        <td>4</td>
-                        <td>John</td>
-                        <td>Smith</td>
-                        <td>@jsmith</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12">
-          <div class="panel panel-default">                     
-            <div class="panel-heading">
-              Context Classes
-            </div>
-          
-            <div class="panel-body">
-              <div class="table-responsive">
-                <table class="table">
-                  <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="success">
-                        <td>1</td>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr class="info">
-                        <td>2</td>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr class="warning">
-                        <td>3</td>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                    <tr class="danger">
-                        <td>4</td>
-                        <td>John</td>
-                        <td>Smith</td>
-                        <td>@jsmith</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>  
-        </div>
-      </div> 
-    </div>
-  </div>
-</div>  
-
 <%= javascript_tag do %>
   Morris.Donut({
-      element: 'gender-donut-chart',
-      data: [{
-          label: "Download Sales",
-          value: 12
-      }, {
-          label: "In-Store Sales",
-          value: 30
-      }, {
-          label: "Mail-Order Sales",
-          value: 20
-      }],
-      resize: true
-  });
-
-  Morris.Donut({
       element: 'category-donut-chart',
-      data: [{
-          label: "Download Sales",
-          value: 12
-      }, {
-          label: "In-Store Sales",
-          value: 30
-      }, {
-          label: "Mail-Order Sales",
-          value: 20
-      }],
+      data: [
+        <% for i in 1..@stores_by_category.size%>
+        {
+          label: "<%= @common_code.find_by_category(i).first.name_kor %>",
+          value: <%= @stores_by_category[i] %>
+        },
+        <% end %>
+      ],
+
       resize: true
   });
 <% end %>
-  
+
+

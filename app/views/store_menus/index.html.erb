@@ -21,7 +21,7 @@
               <tr>
                 <th>메뉴 이미지</th>
                 <th>아이디</th>
-                <th>매장</th>
+                <th>매장 이름(아이디)</th>
                 <th>상세보기</th>
                 <th>수정하기</th>
                 <th>삭제하기</th>
@@ -31,14 +31,10 @@
               <% @store_menus.each do |store_menu| %>
               <tr class="<%= cycle('even', 'odd') -%>">
                 <td align="center">
-                <% if store_menu.image.present? %>
                   <img src= <%= store_menu.image.image.url %> width="100" height="100">
-                <% else %>
-                  이미지 없음
-                <% end %> 
                 </td>
                 <td><%= store_menu.store_menu_id %></td>
-                <td><%= store_menu.store_id %></td>
+                <td><%= store_menu.store.name %>(<%= store_menu.store_id %>)</td>
                 <td align="center"><%= link_to '상세', store_menu, class: "btn btn-primary" %></td>
                 <td align="center"><%= link_to '수정', edit_store_menu_path(store_menu), class: "btn btn-warning" %></td>
                 <td align="center"><%= link_to '삭제', store_menu, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
